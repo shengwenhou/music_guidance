@@ -9,6 +9,10 @@ const cues = [
     "refs": [
       "manuscript",
       "berlin"
+    ],
+    "subtitle": [
+      "1888年，28歲的馬勒寫下《葬禮》的音樂。",
+      "全曲的「復活」結局，還要再等六年。"
     ]
   },
   {
@@ -21,6 +25,10 @@ const cues = [
     "refs": [
       "manuscript",
       "met"
+    ],
+    "subtitle": [
+      "馬勒後來說：這裡送走的是第一號交響曲的英雄。",
+      "留意那些激烈的聲音：哀悼裡，是否仍有抗拒？"
     ]
   },
   {
@@ -33,6 +41,10 @@ const cues = [
     "refs": [
       "nac",
       "nm"
+    ],
+    "subtitle": [
+      "站在所愛之人的棺木前，奮鬥與痛苦還有什麼意義？",
+      "把樂句的推進與停頓，聽成一場未完的追問。"
     ]
   },
   {
@@ -45,6 +57,10 @@ const cues = [
     "refs": [
       "nm",
       "totenfeier"
+    ],
+    "subtitle": [
+      "1891年，馬勒試奏《葬禮》，Bülow卻捂住耳朵。",
+      "今天熟悉的聲響，當年也曾讓音樂權威難以接受。"
     ]
   },
   {
@@ -57,6 +73,10 @@ const cues = [
     "refs": [
       "steinberg",
       "manuscript"
+    ],
+    "subtitle": [
+      "第一樂章在1888年成形，中間樂章到1893年才續寫。",
+      "先有了死亡的問題，馬勒仍在尋找全曲的結尾。"
     ]
   },
   {
@@ -69,6 +89,10 @@ const cues = [
     "refs": [
       "movement",
       "berlin"
+    ],
+    "subtitle": [
+      "沉重之外，第一樂章也容得下抒情與溫柔。",
+      "遇到柔和的旋律時，聽聽低音的步伐是否也放鬆。"
     ]
   },
   {
@@ -81,6 +105,10 @@ const cues = [
     "refs": [
       "berlin",
       "history"
+    ],
+    "subtitle": [
+      "1894年，Bülow的追思禮拜上，馬勒聽見復活詩。",
+      "那是終樂章靈感的契機；合唱此刻還不會進場。"
     ]
   },
   {
@@ -93,6 +121,10 @@ const cues = [
     "refs": [
       "nm",
       "met"
+    ],
+    "subtitle": [
+      "馬勒想用合唱作結，卻也擔心被視為模仿貝多芬第九。",
+      "找到詩句後，他加入自己的文字，回應生命與死亡。"
     ]
   },
   {
@@ -105,6 +137,10 @@ const cues = [
     "refs": [
       "berlin",
       "nm"
+    ],
+    "subtitle": [
+      "1895年，馬勒在柏林親自指揮完整五樂章首演。",
+      "這五分鐘是漫長旅程的起點，答案尚在後面。"
     ]
   },
   {
@@ -117,6 +153,10 @@ const cues = [
     "refs": [
       "met",
       "nm"
+    ],
+    "subtitle": [
+      "背景故事能替你開門，卻不必替每個音符下判決。",
+      "最後半分鐘，少看文字，完整聽一個樂句。"
     ]
   }
 ];
@@ -126,11 +166,11 @@ let player,ready=false,preview=false,index=-1,finished=false,speaking=false,apiT
 const status=t=>$('status').textContent=t;
 function offset(){return Math.max(0,Number($('offset').value)||0)}
 function cancelSpeech(){if('speechSynthesis'in window)window.speechSynthesis.cancel();speaking=false;$('speak').textContent='◉ 暫停並聽解說'}
-function render(t){t=Math.max(0,Math.min(300,t));let i=cues.findLastIndex(c=>c.t<=t);$('clock').textContent=fmt(t);$('progress').style.width=(t/3)+'%';if(i===index)return;index=i;const c=cues[i];$('year').textContent=c.year;$('title').textContent=c.title;$('prompt').textContent=c.text;$('tags').textContent=c.focus;$('detail').textContent=c.detail;$('sources').replaceChildren(...c.refs.map(key=>{const a=document.createElement('a');a.textContent=sources[key][0];a.href=sources[key][1];a.target='_blank';a.rel='noopener';return a}));$('count').textContent=String(i+1).padStart(2,'0')+' / '+cues.length;$('window').textContent=fmt(c.t)+' — '+fmt(cues[i+1]?.t??300);document.querySelectorAll('.cue').forEach((b,j)=>{b.classList.toggle('active',j===i);b.setAttribute('aria-current',j===i?'step':'false')})}
-function setPreview(value){preview=value;$('mode').textContent=value?'CARD PREVIEW · 圖卡預覽':'背景故事 × 聆聽';$('railLabel').textContent=value?'圖卡預覽 · 未跟隨影片':'五分鐘故事導聆';$('preview').textContent=value?'返回影片同步':'預覽圖卡'}
+function render(t){t=Math.max(0,Math.min(300,t));let i=cues.findLastIndex(c=>c.t<=t);$('clock').textContent=fmt(t);$('progress').style.width=(t/3)+'%';if(i===index)return;index=i;const c=cues[i];$('subtitleYear').textContent=c.year;$('subtitleLine1').textContent=c.subtitle[0];$('subtitleLine2').textContent=c.subtitle[1];$('subtitleCount').textContent=(i+1)+' / '+cues.length;$('previousCue').disabled=i===0;$('nextCue').disabled=i===cues.length-1;$('year').textContent=c.year;$('title').textContent=c.title;$('prompt').textContent=c.text;$('tags').textContent=c.focus;$('detail').textContent=c.detail;$('sources').replaceChildren(...c.refs.map(key=>{const a=document.createElement('a');a.textContent=sources[key][0];a.href=sources[key][1];a.target='_blank';a.rel='noopener';return a}));$('count').textContent=String(i+1).padStart(2,'0')+' / '+cues.length;$('window').textContent=fmt(c.t)+' — '+fmt(cues[i+1]?.t??300);document.querySelectorAll('.cue').forEach((b,j)=>{b.classList.toggle('active',j===i);b.setAttribute('aria-current',j===i?'step':'false')})}
+function setPreview(value){preview=value;$('mode').textContent=value?'CARD PREVIEW · 字幕預覽':'背景故事 × 聆聽';$('railLabel').textContent=value?'字幕預覽 · 未跟隨影片':'五分鐘故事導聆';$('preview').textContent=value?'返回影片同步':'預覽字幕';$('captionMode').textContent=value?'字幕預覽':'同步導聆'}
 function jump(t){cancelSpeech();finished=false;if(preview||!ready){if(!preview)setPreview(true);render(t);return}player.seekTo(offset()+t,true);render(t)}
 cues.forEach((c,i)=>{const b=document.createElement('button');b.className='cue';const s=document.createElement('span');s.textContent=fmt(c.t);b.append(s,document.createTextNode(c.title));b.onclick=()=>jump(c.t);$('chapters').append(b)});
-$('preview').onclick=()=>{cancelSpeech();if(!preview){if(ready)player.pauseVideo();setPreview(true);status('圖卡預覽：點選下方時間卡，影片不會跟著播放。')}else{setPreview(false);if(ready){render(player.getCurrentTime()-offset());status('已返回影片同步；按繼續播放。')}else status('播放器尚未就緒，可再次開啟圖卡預覽。')}};
+$('preview').onclick=()=>{cancelSpeech();if(!preview){if(ready)player.pauseVideo();setPreview(true);status('字幕預覽：點選下方時間卡，影片不會跟著播放。')}else{setPreview(false);if(ready){render(player.getCurrentTime()-offset());status('已返回影片同步；按繼續播放。')}else status('播放器尚未就緒，可再次開啟字幕預覽。')}};
 $('start').onclick=()=>{cancelSpeech();setPreview(false);finished=false;player.seekTo(offset(),true);player.playVideo();render(0)};
 $('toggle').onclick=()=>{cancelSpeech();setPreview(false);if(finished){finished=false;player.seekTo(offset(),true)}[1,3].includes(player.getPlayerState())?player.pauseVideo():player.playVideo()};
 $('back').onclick=()=>{setPreview(false);jump(Math.max(0,player.getCurrentTime()-offset()-10))};
@@ -139,6 +179,14 @@ $('offset').onchange=()=>{cancelSpeech();finished=false;$('offset').value=offset
 $('speak').onclick=()=>{if(!('speechSynthesis'in window)){status('此瀏覽器未支援語音朗讀；仍可閱讀圖卡。');return}if(speaking){cancelSpeech();return}if(ready)player.pauseVideo();cancelSpeech();const c=cues[index];const u=new SpeechSynthesisUtterance(c.title+'。'+c.text+'。現在可以這樣聽：'+c.focus);u.lang='zh-TW';u.rate=.9;const voices=window.speechSynthesis.getVoices();u.voice=voices.find(v=>/zh[-_]TW/i.test(v.lang))||voices.find(v=>/^zh/i.test(v.lang))||null;speaking=true;$('speak').textContent='■ 停止解說';u.onend=()=>{cancelSpeech();status('解說結束；按「繼續」回到音樂。')};u.onerror=()=>{cancelSpeech();status('語音未能播放，可閱讀圖卡後繼續。')};window.speechSynthesis.speak(u)};
 window.onYouTubeIframeAPIReady=()=>{clearTimeout(apiTimer);player=new YT.Player('player',{videoId:'e34QpbAPgi8',playerVars:{playsinline:1,rel:0,origin:location.origin},events:{onReady:()=>{ready=true;$('loading').classList.add('hidden');['start','toggle','back','align'].forEach(id=>$(id).disabled=false);status('播放器已就緒。按「開始五分鐘導聆」，從音樂起點播放。')},onStateChange:e=>{if(e.data===1&&speaking)cancelSpeech();$('toggle').textContent=e.data===1?'暫停':'繼續';if(!preview)status(e.data===1?'故事導聆進行中 · 配器入點待逐段校準':e.data===2?'已暫停 · 圖卡停留在目前位置':'播放器已就緒')},onError:e=>{ready=false;['start','toggle','back','align'].forEach(id=>$(id).disabled=true);$('loading').classList.add('hidden');status('YouTube 無法播放（代碼 '+e.data+'）。可開啟原始影片，或用「預覽圖卡」查看內容。')}}})};
 setInterval(()=>{if(!ready||preview||speaking)return;const t=player.getCurrentTime()-offset();render(t);if(t>=300&&player.getPlayerState()===1){player.pauseVideo();finished=true;status('五分鐘試聽結束。可點選時間卡重聽，或按繼續從頭開始。')}},200);
-apiTimer=setTimeout(()=>{status('YouTube 連線較久。可先預覽圖卡，或從下方連結開啟原始影片。');$('loading').innerHTML='<div>YouTube 尚未載入<p>可先使用「預覽圖卡」瀏覽導聆內容。</p></div>'},15000);
-const script=document.createElement('script');script.src='https://www.youtube.com/iframe_api';script.onerror=()=>{clearTimeout(apiTimer);status('無法連接 YouTube。可先預覽圖卡，或從下方連結開啟原始影片。');$('loading').innerHTML='<div>暫時無法連接 YouTube<p>可先預覽圖卡。</p></div>'};document.head.append(script);render(0);
+apiTimer=setTimeout(()=>{status('YouTube 連線較久。可先預覽字幕，或從下方連結開啟原始影片。');$('loading').innerHTML='<div>YouTube 尚未載入<p>可先使用「預覽圖卡」瀏覽導聆內容。</p></div>'},15000);
+const script=document.createElement('script');script.src='https://www.youtube.com/iframe_api';script.onerror=()=>{clearTimeout(apiTimer);status('無法連接 YouTube。可先預覽字幕，或從下方連結開啟原始影片。');$('loading').innerHTML='<div>暫時無法連接 YouTube<p>可先預覽字幕。</p></div>'};document.head.append(script);render(0);
 window.addEventListener('pagehide',cancelSpeech);
+
+$('previousCue').onclick=()=>jump(cues[Math.max(0,index-1)].t);
+$('nextCue').onclick=()=>jump(cues[Math.min(cues.length-1,index+1)].t);
+let fallbackFocus=false,oldOverflow='';
+function updateFullscreen(){const active=document.fullscreenElement===$('stage')||document.webkitFullscreenElement===$('stage')||fallbackFocus;$('fullscreen').textContent=active?'↙ 離開專注畫面':'⛶ 影片＋字幕全螢幕';$('fullscreen').setAttribute('aria-pressed',String(active))}
+function fallbackFullscreen(){fallbackFocus=!fallbackFocus;$('stage').classList.toggle('focus-mode',fallbackFocus);if(fallbackFocus){oldOverflow=document.body.style.overflow;document.body.style.overflow='hidden'}else document.body.style.overflow=oldOverflow;updateFullscreen()}
+$('fullscreen').onclick=async()=>{const stage=$('stage');if(fallbackFocus){fallbackFullscreen();return}try{if(document.fullscreenElement===stage){await document.exitFullscreen()}else if(document.webkitFullscreenElement===stage){document.webkitExitFullscreen()}else if(stage.requestFullscreen){await stage.requestFullscreen()}else if(stage.webkitRequestFullscreen){stage.webkitRequestFullscreen()}else fallbackFullscreen()}catch{fallbackFullscreen()}updateFullscreen()};
+document.addEventListener('fullscreenchange',updateFullscreen);document.addEventListener('webkitfullscreenchange',updateFullscreen);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&fallbackFocus)fallbackFullscreen()});
