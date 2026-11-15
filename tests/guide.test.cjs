@@ -28,12 +28,12 @@ test('captions, sources, preview and boundary navigation',()=>{
   for(let i=0;i<9;i++)e.nextCue.onclick();assert.equal(e.nextCue.disabled,true);assert.match(e.subtitleLine2.textContent,/完整聽/);
 });
 test('real playback position controls captions and preview is isolated',()=>{
-  const s=setup(),e=s.elements;s.ready();e.start.onclick();s.state.time=91;s.tick();assert.match(e.subtitleLine1.textContent,/1891/);
+  const s=setup(),e=s.elements;s.ready();e.start.onclick();s.tick();s.state.time=91;s.tick();assert.match(e.subtitleLine1.textContent,/1891/);
   e.preview.onclick();e.nextCue.onclick();assert.equal(s.state.time,91);s.state.time=150;s.tick();assert.equal(e.clock.textContent,'02:00');
   e.preview.onclick();assert.equal(e.clock.textContent,'02:30');
 });
 test('offset, buffering pause and five-minute stop',()=>{
-  const s=setup(),e=s.elements;s.ready();s.state.time=12;e.align.onclick();e.start.onclick();assert.equal(s.state.time,12);
+  const s=setup(),e=s.elements;s.ready();s.state.time=12;e.align.onclick();e.start.onclick();s.tick();assert.equal(s.state.time,12);
   s.state.playback=3;e.toggle.onclick();assert.equal(s.state.playback,2);s.state.playback=1;s.state.time=312;s.tick();assert.equal(s.state.playback,2);assert.equal(e.clock.textContent,'05:00');
   s.event(2);assert.match(e.status.textContent,/結束/);e.toggle.onclick();assert.equal(s.state.time,12);assert.equal(s.state.playback,1);
 });
@@ -54,4 +54,11 @@ test('fullscreen API, fallback and Escape exit restore the page',async()=>{
 test('all script UI references exist in the page',()=>{
   const s=setup();const html=fs.readFileSync(path.join(__dirname,'../dist/index.html'),'utf8');
   for(const id of Object.keys(s.elements))assert.ok(html.includes(`id="${id}"`),id);
+});
+
+test('stale player time during seek cannot rewind rapid subtitle navigation',()=>{
+  const s=setup(),e=s.elements;s.ready();e.start.onclick();
+  for(let i=0;i<9;i++){e.nextCue.onclick();s.state.time=0;s.tick()}
+  assert.equal(e.subtitleCount.textContent,'10 / 10');assert.equal(e.clock.textContent,'04:30');
+  s.state.time=270;s.tick();assert.equal(e.clock.textContent,'04:30');
 });
