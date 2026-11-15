@@ -1,6 +1,9 @@
 name: Deploy listening guide
 
 on:
+  push:
+    branches: [main]
+    paths: ["dist/**", ".github/workflows/pages.yml"]
   workflow_dispatch:
 
 permissions:
