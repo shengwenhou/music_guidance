@@ -8,7 +8,7 @@ let lastGuideTime=0,shownLyric;
 function lyricShift(){return Math.min(30,Math.max(-30,Number($('lyricShift').value)||0))}
 function renderLyrics(t){
  lastGuideTime=t;const lt=t-lyricShift();const c=$('lyricsToggle').checked?(LYRIC_GUIDE.cues||[]).find(c=>lt>=c.start&&lt<c.end):null;
- const key=c?.id||null;if(key!==shownLyric){shownLyric=key;$('lyricsBand').hidden=!c;$('lyricChinese').textContent=c?.zh||'';$('lyricGerman').textContent=c?.de||'';$('lyricTiming').textContent=c?(c.review==='audio-aligned'?'音訊對齊初校':'對時草稿 · 待逐句複核'):'';}
+ const key=c?.id||null;if(key!==shownLyric){shownLyric=key;$('lyricsBand').hidden=!c;$('lyricChinese').textContent=c?.zh||'';$('lyricGerman').textContent=c?.de||'';$('lyricTiming').textContent=c?(c.review==='aligned'?'同場錄音 · 已對時':'時間待複核'):'';}
  $('lyricGerman').hidden=!$('germanToggle').checked;
 }
 $('lyricsToggle').onchange=()=>renderLyrics(lastGuideTime);

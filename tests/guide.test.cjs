@@ -120,7 +120,7 @@ test('all entry reminders state timing uncertainty and link valid musical eviden
 
 test('lyrics follow their own boundaries, clear gaps and remain independent of guide cadence',()=>{
  const s=setup(),e=s.elements;s.ready();e.start.onclick();s.tick();
- s.state.time=4145.1;s.tick();assert.equal(e.lyricsBand.hidden,false);assert.match(e.lyricChinese.textContent,/塵土/);assert.match(e.lyricTiming.textContent,/草稿/);
+ s.state.time=4145.1;s.tick();assert.equal(e.lyricsBand.hidden,false);assert.match(e.lyricChinese.textContent,/復起/);assert.match(e.lyricTiming.textContent,/已對時/);
  const first=e.lyricChinese.textContent;s.state.time=4150;s.tick();assert.equal(e.lyricChinese.textContent,first);
  s.state.time=4202;s.tick();assert.equal(e.lyricsBand.hidden,true);
  s.state.time=4145.1;s.tick();e.lyricsToggle.checked=false;e.lyricsToggle.onchange();assert.equal(e.lyricsBand.hidden,true);assert.equal(s.state.time,4145.1);
@@ -130,10 +130,17 @@ test('lyrics follow their own boundaries, clear gaps and remain independent of g
  s.state.time=4155.1;s.tick();assert.equal(e.lyricsBand.hidden,false);
  e.offset.value=5;e.offset.onchange();assert.equal(e.lyricsBand.hidden,true);
 });
-test('published lyric times and VTT are valid and failed phrases stay explicitly untimed',()=>{
+test('final four lyric changes use reviewed phrase boundaries and clear at the musical close',()=>{
+ const s=setup(),e=s.elements;s.ready();e.start.onclick();s.tick();
+ const checks=[[4836.14,/復起/],[4897.64,/我的心/],[4902.26,/搏動/],[4910,/上帝/]];
+ for(const [time,text] of checks){s.state.time=time;s.tick();assert.equal(e.lyricsBand.hidden,false);assert.match(e.lyricChinese.textContent,text);assert.match(e.lyricTiming.textContent,/已對時/)}
+ s.state.time=4924.09;s.tick();assert.equal(e.lyricsBand.hidden,false);
+ s.state.time=4924.1;s.tick();assert.equal(e.lyricsBand.hidden,true);
+});
+test('all reviewed lyric phrases, including the ending, are timed and published to VTT',()=>{
  const context=vm.createContext({});vm.runInContext(fs.readFileSync(path.join(__dirname,'../dist/lyrics-data.js'),'utf8'),context);const g=vm.runInContext('LYRIC_GUIDE',context);
- assert.equal(g.cues.length,18);assert.equal(g.untimed.length,4);assert.match(g.method,/失敗/);
- let end=0;for(const c of g.cues){assert.ok(c.start>=end&&c.end>c.start&&c.end<=4976);assert.ok(c.zh&&c.de);assert.equal(c.review,'machine-draft');end=c.end}
- for(const c of g.untimed)assert.equal(c.start,undefined);
- const vtt=fs.readFileSync(path.join(__dirname,'../dist/mahler-finale-zh-Hant.vtt'),'utf8');assert.equal((vtt.match(/ --> /g)||[]).length,g.cues.length);assert.match(vtt,/manual review pending/);
+ assert.equal(g.cues.length,32);assert.equal(g.untimed.length,0);assert.match(g.method,/82:04/);
+ let end=0;for(const c of g.cues){assert.ok(c.start>=end&&c.end>c.start&&c.end<=4924.1);assert.ok(c.zh&&c.de);assert.equal(c.review,'aligned');end=c.end}
+ assert.match(g.cues.at(-1).zh,/上帝/);assert.equal(g.cues.at(-1).start,4910);assert.equal(g.cues.at(-1).end,4924.1);
+ const vtt=fs.readFileSync(path.join(__dirname,'../dist/mahler-finale-zh-Hant.vtt'),'utf8');assert.equal((vtt.match(/ --> /g)||[]).length,g.cues.length);assert.match(vtt,/reviewed against the official recording/);
 });
