@@ -22,14 +22,14 @@ function setup() {
 }
 test('captions, sources, preview and boundary navigation',()=>{
   const s=setup(),e=s.elements;
-  assert.equal(s.buttons.length,10);assert.match(e.subtitleLine1.textContent,/1888/);assert.equal(e.sources.children.length,2);
-  e.preview.onclick();e.nextCue.onclick();assert.equal(e.clock.textContent,'00:30');assert.equal(e.subtitleCount.textContent,'2 / 10');
+  assert.equal(s.buttons.length,15);assert.match(e.subtitleLine1.textContent,/1888/);assert.equal(e.sources.children.length,2);
+  e.preview.onclick();e.nextCue.onclick();assert.equal(e.clock.textContent,'00:20');assert.equal(e.subtitleCount.textContent,'2 / 15');
   e.previousCue.onclick();assert.equal(e.previousCue.disabled,true);
-  for(let i=0;i<9;i++)e.nextCue.onclick();assert.equal(e.nextCue.disabled,true);assert.match(e.subtitleLine2.textContent,/完整聽/);
+  for(let i=0;i<14;i++)e.nextCue.onclick();assert.equal(e.nextCue.disabled,true);assert.match(e.subtitleLine1.textContent,/完整聽/);
 });
 test('real playback position controls captions and preview is isolated',()=>{
-  const s=setup(),e=s.elements;s.ready();e.start.onclick();s.tick();s.state.time=91;s.tick();assert.match(e.subtitleLine1.textContent,/1891/);
-  e.preview.onclick();e.nextCue.onclick();assert.equal(s.state.time,91);s.state.time=150;s.tick();assert.equal(e.clock.textContent,'02:00');
+  const s=setup(),e=s.elements;s.ready();e.start.onclick();s.tick();s.state.time=101;s.tick();assert.match(e.subtitleLine1.textContent,/1891/);
+  e.preview.onclick();e.nextCue.onclick();assert.equal(s.state.time,101);s.state.time=150;s.tick();assert.equal(e.clock.textContent,'02:00');
   e.preview.onclick();assert.equal(e.clock.textContent,'02:30');
 });
 test('offset, buffering pause and five-minute stop',()=>{
@@ -58,7 +58,17 @@ test('all script UI references exist in the page',()=>{
 
 test('stale player time during seek cannot rewind rapid subtitle navigation',()=>{
   const s=setup(),e=s.elements;s.ready();e.start.onclick();
-  for(let i=0;i<9;i++){e.nextCue.onclick();s.state.time=0;s.tick()}
-  assert.equal(e.subtitleCount.textContent,'10 / 10');assert.equal(e.clock.textContent,'04:30');
-  s.state.time=270;s.tick();assert.equal(e.clock.textContent,'04:30');
+  for(let i=0;i<14;i++){e.nextCue.onclick();s.state.time=0;s.tick()}
+  assert.equal(e.subtitleCount.textContent,'15 / 15');assert.equal(e.clock.textContent,'04:40');
+  s.state.time=280;s.tick();assert.equal(e.clock.textContent,'04:40');
+});
+
+test('20-second cadence and listening hints have distinct labels',()=>{
+  const s=setup(),e=s.elements;e.preview.onclick();
+  for(let i=0;i<15;i++){
+    const mm=String(Math.floor(i*20/60)).padStart(2,'0'),ss=String(i*20%60).padStart(2,'0');
+    assert.equal(e.clock.textContent,mm+':'+ss);
+    if([1,3,8,12,14].includes(i))assert.ok(e.year.textContent.startsWith('注意聽'));
+    if(i<14)e.nextCue.onclick();
+  }
 });
