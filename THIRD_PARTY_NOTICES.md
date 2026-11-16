@@ -120,3 +120,13 @@
 ### 書目已核對、全文未取得
 
 Stephen E. Hefling（1988），Mahler’s “Todtenfeier” and the Problem of Program Music，19th-Century Music 12(1)，27–53，DOI 10.2307/746608。僅作延伸閱讀；不以1981摘要冒充1988全文。
+
+## 進場前提醒的資料依據
+
+影片時間是區段估計，未逐秒驗聽；樂譜身份與時間精度分開標示。不將鏡頭特寫直接當成發聲入點。總譜與研究資料僅供閱讀查核，本專案不包含掃描譜、音例或影片副本。
+
+- Gustav Mahler，Symphonie No. 2，Friedrich Hofmeister，1897；Universal Edition重印掃描。 已看：開頭編制表、第五樂章遠距聲部相關頁，以及203–206頁的最後合唱與管風琴。未以此宣稱整份影片逐小節校準。 https://s9.imslp.org/files/imglnks/usimg/e/e2/IMSLP415748-PMLP49406-GMahler_Symphony_No.2_fe_UE_reprint_RSL1.pdf
+- Paul Banks，Symphony No. 2 in C minor，Off-stage Brass及編制、年表。 已讀：主目錄中遠距銅管的移位、入點與配置說明。 https://www.mahlercat.org.uk/Pages/Symph2/Symph2.htm
+- Marion T. Trout（1991），The Offstage Effect: An Historical and Stylistic Perspective with Performance Considerations for Trumpet，University of North Texas。 已讀：51–57頁馬勒第二號的相關正文與例7–10。 https://digital.library.unt.edu/ark:/67531/metadc278691/m2/1/high_res_d/1002718062-trout.pdf
+
+Banks線上跋與主目錄對最早用名年份存在差異；導聆已避免把1891年定為無爭議的最早日期。

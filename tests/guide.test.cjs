@@ -23,7 +23,7 @@ function setup() {
 }
 test('captions, sources, preview and boundary navigation',()=>{
   const s=setup(),e=s.elements;
-  assert.equal(e.movements!==undefined,true);assert.equal(s.guide.cues.length,251);assert.match(e.subtitleLine1.textContent,/1888/);assert.equal(e.sources.children.length,2);
+  assert.equal(e.movements!==undefined,true);assert.equal(s.guide.cues.length,251);assert.match(e.subtitleLine1.textContent,/1888/);assert.equal(e.sources.children.length,s.guide.cues[0].refs.length);
   e.preview.onclick();e.nextCue.onclick();assert.equal(e.clock.textContent,'00:20');assert.equal(e.subtitleCount.textContent,'2 / 251');
   e.previousCue.onclick();assert.equal(e.previousCue.disabled,true);
   e.seek.value=4975;e.seek.onchange();assert.equal(e.nextCue.disabled,true);assert.match(e.subtitleLine1.textContent,/最後|需要重聽|全曲/);
@@ -104,3 +104,16 @@ test('MIT license is published with explicit media exclusions',()=>{
 });
 
 test('YouTube ended event completes guide even when duration rounding differs',()=>{const s=setup(),e=s.elements;s.ready();s.state.time=4975.5;s.event(0);assert.equal(e.clock.textContent,'82:56');assert.match(e.status.textContent,/結束/);e.toggle.onclick();assert.equal(s.state.time,0)});
+
+test('entry reminders update between background cues and clear after seeking',()=>{
+ const s=setup(),e=s.elements;s.ready();e.start.onclick();s.tick();
+ const alert=s.guide.entryAlerts[0];s.state.time=alert.start-1;s.tick();const line=e.subtitleLine1.textContent;
+ assert.equal(e.entryAlert.hidden,true);s.state.time=alert.start;s.tick();
+ assert.equal(e.entryAlert.hidden,false);assert.match(e.entryAlertTitle.textContent,/圓號/);assert.equal(e.subtitleLine1.textContent,line);
+ s.state.time=alert.end;s.tick();assert.equal(e.entryAlert.hidden,true);
+ e.preview.onclick();const organ=s.guide.entryAlerts.find(a=>a.id==='organ');e.seek.value=organ.start;e.seek.onchange();assert.equal(e.entryAlert.hidden,false);assert.match(e.entryAlertTitle.textContent,/管風琴/);
+ e.seek.value=100;e.seek.onchange();assert.equal(e.entryAlert.hidden,true);
+});
+test('all entry reminders state timing uncertainty and link valid musical evidence',()=>{
+ const {guide:g}=setup();for(const a of g.entryAlerts){assert.ok(a.start>=g.movements[4].t&&a.end<=g.duration&&a.end>a.start);assert.match(a.verification,/估計/);assert.ok(a.scoreAnchor);a.refs.forEach(k=>assert.ok(g.sources[k]));}
+});

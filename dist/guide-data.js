@@ -58,16 +58,17 @@ const GUIDE = {
       "t": 0,
       "year": "1888 · 28歲的馬勒",
       "title": "《復活》，為何從葬禮開始？",
-      "text": "1888年，馬勒完成後來成為第一樂章的音樂。Paul Banks的文獻考證指出，《葬禮》這個名稱到1891年才出現；作品的寫成與命名，是不同時間的事情。整部交響曲則在1894年完成。",
+      "text": "1888年，馬勒完成後來成為第一樂章的音樂。Paul Banks的文獻考證提醒我們，作品的寫成、命名與是否獨立構思，是不同問題；整部交響曲在1894年完成。",
       "focus": "先聽低音弦樂的重量與突然收住的句子；把它當成一場嚴肅對話的開場。",
-      "detail": "史實修訂：不把1891年的名稱提前放到1888年。Banks的線上跋也質疑「原本是獨立交響詩，後來才改成第一樂章」的常見說法。這是依文獻提出的研究判斷，不將學界討論簡化為毫無爭議的創作劇本。",
+      "detail": "Banks線上跋把《葬禮》名稱放在1891年；同一學者的主目錄又列出1889年報刊用名，兩頁日期表述有差異。本版因此不把最早命名年份說成定論，重點是避免把後來名稱與最初構思混成同一件事。",
       "refs": [
         "banks",
+        "offstage",
         "history"
       ],
       "subtitle": [
         "1888年，28歲的馬勒寫下後來成為第一樂章的音樂。",
-        "《葬禮》這個名稱，依Paul Banks考證到1891年才出現。"
+        "《葬禮》是後來使用的名稱；寫成與命名，應分開理解。"
       ],
       "kind": "story",
       "movement": 0,
@@ -4664,7 +4665,7 @@ const GUIDE = {
     ],
     "hefling": [
       "Stephen E. Hefling｜AMS 1981研究摘要，第42頁",
-      "https://www.amsmusicology.org/wp-content/uploads/2025/02/ams-abstracts-1981.pdf#page=44"
+      "https://www.amsmusicology.org/wp-content/uploads/2025/02/ams-abstracts-1981.pdf"
     ],
     "bernstein": [
       "Lawrence F. Bernstein｜Inside Mahler’s Second Symphony（OUP，2022；公開摘要）",
@@ -4689,6 +4690,18 @@ const GUIDE = {
     "cleveland": [
       "Celine Gosselin／Welser-Möst｜克里夫蘭管弦樂團：手稿與演奏",
       "https://www.clevelandorchestra.com/posts/resurrecting-the-second-symphony-from-mahlers-autograph-score"
+    ],
+    "score": [
+      "馬勒：第二號交響曲，1897版總譜掃描（IMSLP）",
+      "https://s9.imslp.org/files/imglnks/usimg/e/e2/IMSLP415748-PMLP49406-GMahler_Symphony_No.2_fe_UE_reprint_RSL1.pdf"
+    ],
+    "offstage": [
+      "Paul Banks：第二號交響曲，Off-stage Brass",
+      "https://www.mahlercat.org.uk/Pages/Symph2/Symph2.htm"
+    ],
+    "trout": [
+      "Marion T. Trout（1991）：The Offstage Effect，51–57頁",
+      "https://digital.library.unt.edu/ark:/67531/metadc278691/m2/1/high_res_d/1002718062-trout.pdf"
     ]
   },
   "bibliography": [
@@ -4761,6 +4774,82 @@ const GUIDE = {
       "citation": "Paul Banks，The Music of Gustav Mahler: A Catalogue of Manuscript and Printed Sources，Symphony No. 2: Texts。",
       "reading": "已讀：原文歌詞對照與來源說明。",
       "contribution": "區分Klopstock文本、馬勒續寫及《少年魔號》。"
+    },
+    {
+      "key": "score",
+      "kind": "第一手樂譜",
+      "citation": "Gustav Mahler，Symphonie No. 2，Friedrich Hofmeister，1897；Universal Edition重印掃描。",
+      "reading": "已看：開頭編制表、第五樂章遠距聲部相關頁，以及203–206頁的最後合唱與管風琴。未以此宣稱整份影片逐小節校準。",
+      "contribution": "核對管風琴在排練號48與最後強奏合唱同時進入；提醒時間另列核對程度。"
+    },
+    {
+      "key": "offstage",
+      "kind": "文獻與配器考證",
+      "citation": "Paul Banks，Symphony No. 2 in C minor，Off-stage Brass及編制、年表。",
+      "reading": "已讀：主目錄中遠距銅管的移位、入點與配置說明。",
+      "contribution": "早段圓號、幕後小號與大召喚分開處理；也注意同站命名日期表述的歧異。"
+    },
+    {
+      "key": "trout",
+      "kind": "演奏研究 · 博士論文",
+      "citation": "Marion T. Trout（1991），The Offstage Effect: An Historical and Stylistic Perspective with Performance Considerations for Trumpet，University of North Texas。",
+      "reading": "已讀：51–57頁馬勒第二號的相關正文與例7–10。",
+      "contribution": "幕後打擊先給小號準備、遠距音量與位置的變化，以及大召喚的聲部關係。"
+    }
+  ],
+  "entryAlerts": [
+    {
+      "id": "distant-horns",
+      "start": 2975,
+      "end": 3000,
+      "title": "準備聽：遠距圓號",
+      "text": "接下來留意從遠方傳來的圓號呼喚，與台上聲音的距離感。",
+      "scoreAnchor": "第五樂章第83小節起；總譜排練號3",
+      "verification": "樂譜位置已核對；影片預告時間為區段估計，未逐秒驗聽。",
+      "refs": [
+        "offstage",
+        "score"
+      ]
+    },
+    {
+      "id": "offstage-band",
+      "start": 3710,
+      "end": 3740,
+      "title": "準備聽：幕後打擊 → 小號",
+      "text": "留意遠處的打擊先帶出步伐，小號隨後加入；別只追台上的旋律。",
+      "scoreAnchor": "第五樂章第343小節附近的幕後樂團；Trout 51–53頁、例7",
+      "verification": "配器與先後關係已核對；影片預告時間為區段估計，未逐秒驗聽。",
+      "refs": [
+        "trout",
+        "offstage"
+      ]
+    },
+    {
+      "id": "great-summons",
+      "start": 3955,
+      "end": 3985,
+      "title": "準備聽：遠方的大召喚",
+      "text": "接下來留意遠距銅管的呼應與鼓聲，並比較台前鳥鳴般的木管。",
+      "scoreAnchor": "第五樂章第447–471小節附近的大召喚；Trout 53–57頁",
+      "verification": "樂譜段落已核對；影片預告時間為區段估計，未逐秒驗聽。",
+      "refs": [
+        "trout",
+        "offstage",
+        "score"
+      ]
+    },
+    {
+      "id": "organ",
+      "start": 4760,
+      "end": 4790,
+      "title": "準備聽：管風琴加入",
+      "text": "最後一次強奏的「復活」合唱將帶入管風琴，聽低音與和聲如何加厚。",
+      "scoreAnchor": "第五樂章排練號48／第712小節，Pesante；1897版總譜204頁",
+      "verification": "樂譜進場位置已核對；影片預告時間保守提前，仍是區段估計，未逐秒驗聽。",
+      "refs": [
+        "score",
+        "utah"
+      ]
     }
   ]
 };
