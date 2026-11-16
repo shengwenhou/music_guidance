@@ -29,6 +29,7 @@ jobs:
         run: |
           node --check dist/guide-data.js
           node --check dist/app.js
+          node --check dist/lyrics-data.js
       - name: Test guide interactions
         run: node --test tests/guide.test.cjs
       - uses: actions/configure-pages@v5
