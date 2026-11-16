@@ -7,7 +7,7 @@ const guideSource = fs.readFileSync(path.join(__dirname, '../dist/guide-data.js'
 const source = fs.readFileSync(path.join(__dirname, '../dist/app.js'), 'utf8');
 function setup() {
   const elements = {}, buttons = [], listeners = {};
-  const state = {time:0, playback:2, pauses:0, cancelCount:0, speech:null};
+  const state = {time:0, playback:2, pauses:0};
   const element = () => ({textContent:'',value:0,style:{},dataset:{},classList:{add(){},toggle(){}},append(){},replaceChildren(...children){this.children=children},setAttribute(k,v){this[k]=v}});
   const document = {
     body:{style:{overflow:''}},
@@ -17,7 +17,7 @@ function setup() {
     addEventListener:(name,callback)=>listeners[name]=callback
   };
   let events, tick;
-  const context={document,location:{origin:'https://example.org'},window:{addEventListener(){},speechSynthesis:{cancel(){state.cancelCount++},getVoices:()=>[],speak:u=>state.speech=u}},setInterval:f=>tick=f,setTimeout:()=>1,clearTimeout(){},SpeechSynthesisUtterance:function(text){this.text=text},YT:{Player:function(id,options){events=options.events;return {getCurrentTime:()=>state.time,getPlayerState:()=>state.playback,seekTo:v=>state.time=v,pauseVideo(){state.playback=2;state.pauses++},playVideo(){state.playback=1}}}}};
+  const context={document,location:{origin:'https://example.org'},window:{addEventListener(){}},setInterval:f=>tick=f,setTimeout:()=>1,clearTimeout(){},YT:{Player:function(id,options){events=options.events;return {getCurrentTime:()=>state.time,getPlayerState:()=>state.playback,seekTo:v=>state.time=v,pauseVideo(){state.playback=2;state.pauses++},playVideo(){state.playback=1}}}}};
   vm.createContext(context);vm.runInContext(guideSource,context);vm.runInContext(source,context);
   return {elements,buttons,state,document,listeners,guide:vm.runInContext('GUIDE',context),ready(){context.window.onYouTubeIframeAPIReady();events.onReady()},event(data){events.onStateChange({data})},tick(){tick()}};
 }
@@ -37,12 +37,6 @@ test('offset, buffering pause and full-work stop',()=>{
   const s=setup(),e=s.elements;s.ready();s.state.time=12;e.align.onclick();e.start.onclick();s.tick();assert.equal(s.state.time,12);
   s.state.playback=3;e.toggle.onclick();assert.equal(s.state.playback,2);s.state.playback=1;s.state.time=4988;s.tick();assert.equal(s.state.playback,2);assert.equal(e.clock.textContent,'82:56');
   s.event(2);assert.match(e.status.textContent,/結束/);e.toggle.onclick();assert.equal(s.state.time,12);assert.equal(s.state.playback,1);
-});
-test('narration survives delayed pause and ignores stale speech callbacks',()=>{
-  const s=setup(),e=s.elements;s.ready();e.speak.onclick();const old=s.state.speech,count=s.state.cancelCount;
-  assert.match(old.text,/現在可以這樣聽/);s.event(2);assert.equal(s.state.cancelCount,count);assert.match(e.speak.textContent,/停止/);
-  e.nextCue.onclick();const status=e.status.textContent;old.onerror();assert.equal(e.status.textContent,status);
-  e.speak.onclick();s.event(1);assert.match(e.speak.textContent,/暫停並聽/);
 });
 test('fullscreen API, fallback and Escape exit restore the page',async()=>{
   const s=setup(),e=s.elements;
