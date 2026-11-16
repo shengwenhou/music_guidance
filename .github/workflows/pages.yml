@@ -26,7 +26,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Check JavaScript
-        run: node --check dist/app.js
+        run: |
+          node --check dist/guide-data.js
+          node --check dist/app.js
       - name: Test guide interactions
         run: node --test tests/guide.test.cjs
       - uses: actions/configure-pages@v5
