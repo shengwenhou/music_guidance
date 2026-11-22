@@ -3,7 +3,7 @@ const $=id=>document.getElementById(id), fmt=s=>{s=Math.max(0,Math.floor(s));ret
 let player,ready=false,preview=false,index=-1,finished=false,apiTimer,pendingSeek=null;
 const status=t=>$('status').textContent=t;
 function offset(){return Math.min(7200,Math.max(0,Number($('offset').value)||0))}
-function updateCueKind(){const listening=cues[index]?.kind==='listen';$('captionMode').textContent=preview?'字幕預覽':listening?'🎧 注意聽':cues[index]?.kind==='method'?'聆聽方法':cues[index]?.kind==='interpretation'?'學者觀點':'創作背景';$('subtitleBand').classList.toggle('listening',listening)}
+function updateCueKind(){const listening=cues[index]?.kind==='listen';$('captionMode').textContent=preview?'字幕預覽':listening?'🎧 注意聽':cues[index]?.kind==='method'?'聆聽方法':cues[index]?.kind==='interpretation'?'學者觀點':cues[index]?.kind==='quiet'?'純聆聽':'創作背景';$('subtitleBand').classList.toggle('listening',listening)}
 let lastGuideTime=0,shownLyric;
 function lyricShift(){return Math.min(30,Math.max(-30,Number($('lyricShift').value)||0))}
 function renderLyrics(t){

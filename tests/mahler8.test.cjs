@@ -25,7 +25,8 @@ test('Mahler 8 guide covers the complete source video at ten-second cadence', ()
       assert.ok(cue.t - guide.cues[index - 1].t <= 10);
     }
     assert.equal(cue.subtitle.length, 1);
-    assert.ok(cue.subtitle[0]);
+    if (cue.kind === 'quiet') assert.equal(cue.subtitle[0], '');
+    else assert.ok(cue.subtitle[0]);
     assert.ok(cue.text && cue.focus && cue.detail);
     assert.ok(cue.t >= guide.movements[cue.movement].t);
     assert.ok(cue.t < guide.movements[cue.movement].end);
@@ -35,21 +36,31 @@ test('Mahler 8 guide covers the complete source video at ten-second cadence', ()
   assert.match(guide.cues.find(cue => cue.parentStart === 4926).subtitle[0], /Veni|管風琴|遠距銅管/);
 });
 
-test('ten-second captions advance through different ideas instead of recycling one focus sentence', () => {
+test('ten-second guide leaves unsupported slots quiet instead of recycling generic prompts', () => {
   const allLines = guide.cues.map(cue => cue.subtitle[0]);
-  assert.equal(new Set(allLines).size, allLines.length);
   const groups = new Map();
   for (const cue of guide.cues) {
     if (!groups.has(cue.parentStart)) groups.set(cue.parentStart, []);
     groups.get(cue.parentStart).push(cue);
   }
   for (const cues of groups.values()) {
-    assert.equal(new Set(cues.map(cue => cue.subtitle[0])).size, cues.length);
+    const commentary = cues.map(cue => cue.subtitle[0]).filter(Boolean);
+    assert.equal(new Set(commentary).size, commentary.length);
+    assert.ok(commentary.length >= Math.min(2, cues.length));
+    assert.ok(commentary.length <= 4);
     const focus = cues[0].focus;
     assert.ok(cues.filter(cue => cue.subtitle[0].includes(focus)).length <= 1, focus);
   }
+  assert.ok(guide.cues.some(cue => cue.kind === 'quiet' && cue.subtitle[0] === ''));
   const reported = '注意質地變薄，以及獨奏小提琴如何從龐大編制中浮出。';
   assert.equal(allLines.filter(line => line.includes(reported)).length, 1);
+  for (const recycled of [
+    '聽目前句尾如何收束、懸住或直接跨過去',
+    '前景主線與後方持續音',
+    '比較前十秒：真正改變的是聲部密度',
+  ]) {
+    assert.equal(allLines.filter(line => line.includes(recycled)).length, 0, recycled);
+  }
 });
 
 test('entry reminders include the requested large-scale and vocal landmarks', () => {
@@ -99,6 +110,7 @@ test('published VTT and interface expose the same lyric set without TTS', () => 
   assert.match(html, /max-width:650px\)\{\.lyrics-band\{height:170px/);
   assert.match(html, /mahler8-zh-Hant\.vtt/);
   assert.match(app, /videoId:GUIDE\.videoId/);
+  assert.match(app, /純聆聽/);
   assert.doesNotMatch(`${html}\n${app}`, /speechSynthesis|TTS|語音播放/);
   for (const id of app.matchAll(/\$\('([^']+)'\)/g)) {
     assert.ok(html.includes(`id="${id[1]}"`), id[1]);
