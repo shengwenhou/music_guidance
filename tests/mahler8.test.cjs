@@ -35,6 +35,23 @@ test('Mahler 8 guide covers the complete source video at ten-second cadence', ()
   assert.match(guide.cues.find(cue => cue.parentStart === 4926).subtitle[0], /Veni|管風琴|遠距銅管/);
 });
 
+test('ten-second captions advance through different ideas instead of recycling one focus sentence', () => {
+  const allLines = guide.cues.map(cue => cue.subtitle[0]);
+  assert.equal(new Set(allLines).size, allLines.length);
+  const groups = new Map();
+  for (const cue of guide.cues) {
+    if (!groups.has(cue.parentStart)) groups.set(cue.parentStart, []);
+    groups.get(cue.parentStart).push(cue);
+  }
+  for (const cues of groups.values()) {
+    assert.equal(new Set(cues.map(cue => cue.subtitle[0])).size, cues.length);
+    const focus = cues[0].focus;
+    assert.ok(cues.filter(cue => cue.subtitle[0].includes(focus)).length <= 1, focus);
+  }
+  const reported = '注意質地變薄，以及獨奏小提琴如何從龐大編制中浮出。';
+  assert.equal(allLines.filter(line => line.includes(reported)).length, 1);
+});
+
 test('entry reminders include the requested large-scale and vocal landmarks', () => {
   const ids = new Set(guide.entryAlerts.map(alert => alert.id));
   for (const id of ['opening', 'offstage-1', 'children', 'doctor', 'mater', 'mysticus', 'finale']) {

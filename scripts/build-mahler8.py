@@ -225,31 +225,102 @@ def build_lyrics() -> tuple[list[dict], str]:
     return cues, "\n".join(vtt)
 
 
+def phase_lines(title: str, subtitle: str, focus: str, kind: str, next_title: str) -> list[str]:
+    """Give every ten-second cue a different listening job.
+
+    A former version repeated ``focus`` with cosmetic prefixes.  These phases
+    deliberately rotate among context, texture, line, rhythm, space and form.
+    """
+    if kind == "story":
+        middle = [
+            f"先把「{title}」當成背景座標；此刻不必急著尋找一條主旋律。",
+            f"理解「{title}」時，先分開作品名稱、首演宣傳與實際音樂結構。",
+            f"舞台人數雖多，「{title}」仍靠聲部分組與輪流進場組織聲音。",
+            f"這十秒先看整體尺度：哪些人保持安靜，哪些聲部正在取得主導。",
+            f"接下來用兩條線索聽：文字的意義，以及同一動機換了什麼音色。",
+            f"別把龐大編制等同持續強奏；「{title}」也會用留白建立重量。",
+            f"回想本段開頭，現在改變的是音量、音域，還是參與的聲部數量。",
+            f"若暫時聽不出主題，先判斷聲音在靠近、退遠，或向高處移動。",
+            f"把「{title}」記成一個位置；稍後相同材料回來時再比較。",
+            f"這一段的句尾值得注意：它會停住、懸著，或直接跨進下一幕。",
+            f"下一個焦點是「{next_title}」；先聽目前聲場如何為它清出位置。",
+            f"從「{title}」離開前，記住此刻最突出的音色與空間距離。",
+        ]
+    elif kind == "interpretation":
+        middle = [
+            f"「{title}」是一種讀法，不表示每個音符只有一套固定劇情。",
+            f"先聽文字的關鍵意象，如何被音域、速度與和聲距離放大。",
+            f"暫時不追歌詞逐字，改聽母音長度與樂團線條如何改變語氣。",
+            f"在「{title}」裡，外在景物與內在狀態常由相同動機連在一起。",
+            f"比較前十秒：音樂是在肯定文字，還是保留矛盾與不安。",
+            f"把最高聲部放開，聽中低音是否讓「{title}」變得更沉、更穩。",
+            f"注意聲音的遠近；空間位置也在參與這段意義的形成。",
+            f"若熟悉動機再現，先判斷它換了誰來唱、誰來伴奏。",
+            f"這裡的高潮未必是最大音量，也可能是和聲終於找到方向。",
+            f"記住「{title}」目前的音色，稍後回歸時再比較它是否被轉化。",
+            f"下一段是「{next_title}」；聽眼前的意象如何讓位給新角色。",
+            f"離開「{title}」前，先聽句尾是落地，還是仍指向更高處。",
+        ]
+    elif kind == "method":
+        middle = [
+            f"在「{title}」裡只選一條線追蹤，不必同時辨認所有聲部。",
+            f"先聽最高聲部，再把注意力移到低音，確認中間還藏著哪些層次。",
+            f"比較前十秒：真正變化的是力度、密度，還是音色配置。",
+            f"把起音當路標；各聲部是整齊落下，還是彼此錯開進場。",
+            f"現在只判斷旋律方向：上行、下沉，或停在長音等待接手。",
+            f"在「{title}」中，短動機比完整旋律更容易辨認，先記節奏輪廓。",
+            f"若聲音太多，先找持續最久的一層，再聽其他聲部如何繞著它活動。",
+            f"這十秒專聽句尾：完整終止、延長懸住，或無縫接入下一句。",
+            f"再換一次焦點，分辨前景主線與後方持續音之間的距離。",
+            f"不要只等高潮；注意反覆音型何時停止累積、開始鬆開。",
+            f"下一段「{next_title}」會換一個聽點；先記住目前的節奏與音域。",
+            f"從「{title}」離開時，確認材料是消失了，還是換到別的聲部。",
+        ]
+    else:
+        middle = [
+            f"在「{title}」裡先分開前景主線與後方持續音，不必一次聽完全部。",
+            f"比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。",
+            f"暫時放開最高聲部，聽中低音如何托住「{title}」的和聲重量。",
+            f"現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。",
+            f"留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。",
+            f"把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。",
+            f"在「{title}」中聽前景與後景，判斷哪一組聲音離耳朵最近。",
+            f"這十秒專聽句尾：完整停下、懸在半空，或直接接進下一句。",
+            f"若熟悉輪廓出現，先別急著命名；聽它被哪一組聲音接走。",
+            f"回想「{title}」開始時的重量，現在增加或抽掉了哪些層次。",
+            f"下一段「{next_title}」將改變焦點；聽目前樂句如何讓出空間。",
+            f"離開「{title}」前，記住此刻最鮮明的音色、節奏與距離。",
+        ]
+    middle = [line if title in line else f"「{title}」：{line}" for line in middle]
+    return [subtitle, focus, *middle]
+
+
 def build_guide() -> dict:
     movements = [
         {"t": 0, "end": 1636, "name": "I · Veni Creator Spiritus", "tempo": "Hymnus", "refs": ["berlin", "latin"]},
         {"t": 1636, "end": DURATION, "name": "II · Faust II 終幕", "tempo": "Bergschluchten", "refs": ["goethe", "cambridge"]},
     ]
     starts = sorted(set(range(0, DURATION, 10)) | {1636})
+    anchors_for_time = {
+        t: max(index for index, item in enumerate(ANCHORS) if item[0] <= t)
+        for t in starts
+    }
+    times_by_anchor = {
+        index: [t for t in starts if anchors_for_time[t] == index]
+        for index in range(len(ANCHORS))
+    }
     cues = []
     for t in starts:
-        anchor_index = max(index for index, item in enumerate(ANCHORS) if item[0] <= t)
+        anchor_index = anchors_for_time[t]
         start, title, subtitle, focus, kind, refs, context = ANCHORS[anchor_index]
-        next_start = ANCHORS[anchor_index + 1][0] if anchor_index + 1 < len(ANCHORS) else DURATION
-        beat = max(0, int((t - start) // 10))
-        variants = [
-            subtitle,
-            f"注意聽：{focus}",
-            f"這段仍在「{title}」；{focus}",
-            f"把大編制拆開來聽：{focus}",
-            f"別只追音量；{focus}",
-            f"再確認一次：{focus}",
-            f"段落正在轉化；{focus}",
-            f"下一個轉折前，記住：{focus}",
-        ]
-        line = variants[beat % len(variants)]
-        if next_start - t <= 10 and anchor_index + 1 < len(ANCHORS):
-            line = f"準備進入「{ANCHORS[anchor_index + 1][1]}」；{focus}"
+        next_title = ANCHORS[anchor_index + 1][1] if anchor_index + 1 < len(ANCHORS) else "全曲結束"
+        position = times_by_anchor[anchor_index].index(t)
+        variants = phase_lines(title, subtitle, focus, kind, next_title)
+        if len(times_by_anchor[anchor_index]) > len(variants):
+            raise ValueError(f"Not enough unique phases for {title}")
+        line = variants[position]
+        if position == len(times_by_anchor[anchor_index]) - 1 and position >= 2 and anchor_index + 1 < len(ANCHORS):
+            line = f"下一段將轉向「{next_title}」；聽目前句尾如何收束、懸住或直接跨過去。"
         movement = 0 if t < 1636 else 1
         cues.append({
             "t": t,
@@ -319,9 +390,9 @@ def build_html(cue_count: int) -> str:
         "https://www.youtube.com/watch?v=e34QpbAPgi8": f"https://www.youtube.com/watch?v={VIDEO_ID}",
         "原始演出：ARD Klassik／Simon Rattle／BRSO與巴伐利亞廣播合唱團": "原始演出：Mariss Jansons／Royal Concertgebouw Orchestra",
         "2026年3月21日，漢堡易北愛樂廳；Louise Alder（女高音）、Beth Taylor（次女高音）。演出資訊及樂章時間來自影片官方說明。": "2011年3月4、6日，阿姆斯特丹皇家大會堂現場。演出資訊、章節與原文字幕來自影片說明。",
-        "guide-data.js?v=12": "guide-data.js?v=2",
-        "lyrics-data.js?v=12": "lyrics-data.js?v=2",
-        "app.js?v=12": "app.js?v=2",
+        "guide-data.js?v=12": "guide-data.js?v=3",
+        "lyrics-data.js?v=12": "lyrics-data.js?v=3",
+        "app.js?v=12": "app.js?v=3",
     }
     for old, new in replacements.items():
         if old not in page:
@@ -338,7 +409,7 @@ def main() -> None:
     lyric_cues, vtt = build_lyrics()
     lyric_guide = {
         "videoId": VIDEO_ID,
-        "version": 2,
+        "version": 3,
         "method": "第一部拉丁文與第二部德文採本次YouTube影片原文字幕的時間界線，共377段；繁體中文為本專案依公版原文重新翻譯，沒有採用影片中的鄒仲之中文字幕。複調處字幕代表當下最主要或最先進入的文字，聲部重疊不可能完全濃縮在單一字幕；可用±30秒微調修正裝置端差異。",
         "sources": [SOURCES["video"][1], SOURCES["latin"][1], SOURCES["goethe"][1]],
         "vocalRanges": [

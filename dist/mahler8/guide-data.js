@@ -56,7 +56,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "注意聽：先觀察龐大人群尚未發聲前的舞台尺度。"
+        "先觀察龐大人群尚未發聲前的舞台尺度。"
       ],
       "kind": "story",
       "movement": 0,
@@ -75,7 +75,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "準備進入「八週內湧現的巨作」；先觀察龐大人群尚未發聲前的舞台尺度。"
+        "下一段將轉向「八週內湧現的巨作」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "story",
       "movement": 0,
@@ -113,7 +113,7 @@ const GUIDE = {
         "oeaw"
       ],
       "subtitle": [
-        "注意聽：上場與調音也可當成巨型樂器即將啟動的前奏。"
+        "上場與調音也可當成巨型樂器即將啟動的前奏。"
       ],
       "kind": "story",
       "movement": 0,
@@ -132,7 +132,7 @@ const GUIDE = {
         "oeaw"
       ],
       "subtitle": [
-        "準備進入「『千人』其實是宣傳名稱」；上場與調音也可當成巨型樂器即將啟動的前奏。"
+        "下一段將轉向「『千人』其實是宣傳名稱」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "story",
       "movement": 0,
@@ -170,7 +170,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "注意聽：真正的焦點是多組合唱、八位獨唱與樂團如何合成一個聲音。"
+        "真正的焦點是多組合唱、八位獨唱與樂團如何合成一個聲音。"
       ],
       "kind": "story",
       "movement": 0,
@@ -189,7 +189,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "準備進入「第一部即將爆發」；真正的焦點是多組合唱、八位獨唱與樂團如何合成一個聲音。"
+        "下一段將轉向「第一部即將爆發」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "story",
       "movement": 0,
@@ -208,7 +208,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "準備進入「Veni，請降臨」；準備聽第一個 Veni：不是漸入，而是正面開門。"
+        "管風琴、銅管與合唱會幾乎同時把降E大調推到眼前。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -246,7 +246,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "注意聽：記住『Ve-ni』的短促輪廓，終曲尾聲會再次召回。"
+        "記住『Ve-ni』的短促輪廓，終曲尾聲會再次召回。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -265,7 +265,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "這段仍在「Veni，請降臨」；記住『Ve-ni』的短促輪廓，終曲尾聲會再次召回。"
+        "在「Veni，請降臨」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -284,7 +284,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "準備進入「Spiritus 動機」；記住『Ve-ni』的短促輪廓，終曲尾聲會再次召回。"
+        "下一段將轉向「Spiritus 動機」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -322,7 +322,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "注意聽：不要追每個字；先聽相同音型如何在不同聲部接力。"
+        "不要追每個字；先聽相同音型如何在不同聲部接力。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -341,7 +341,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "這段仍在「Spiritus 動機」；不要追每個字；先聽相同音型如何在不同聲部接力。"
+        "在「Spiritus 動機」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -360,7 +360,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "準備進入「Imple：音樂轉向內在」；不要追每個字；先聽相同音型如何在不同聲部接力。"
+        "下一段將轉向「Imple：音樂轉向內在」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -398,7 +398,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "注意聽：聽音量退下後，獨唱與合唱如何換成懇求語氣。"
+        "聽音量退下後，獨唱與合唱如何換成懇求語氣。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -417,7 +417,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "這段仍在「Imple：音樂轉向內在」；聽音量退下後，獨唱與合唱如何換成懇求語氣。"
+        "在「Imple：音樂轉向內在」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -436,7 +436,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽音量退下後，獨唱與合唱如何換成懇求語氣。"
+        "「Imple：音樂轉向內在」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -455,7 +455,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "別只追音量；聽音量退下後，獨唱與合唱如何換成懇求語氣。"
+        "暫時放開最高聲部，聽中低音如何托住「Imple：音樂轉向內在」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -474,7 +474,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "再確認一次：聽音量退下後，獨唱與合唱如何換成懇求語氣。"
+        "「Imple：音樂轉向內在」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -493,7 +493,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "段落正在轉化；聽音量退下後，獨唱與合唱如何換成懇求語氣。"
+        "「Imple：音樂轉向內在」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -512,7 +512,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "下一個轉折前，記住：聽音量退下後，獨唱與合唱如何換成懇求語氣。"
+        "「Imple：音樂轉向內在」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -531,7 +531,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "『以天上的恩寵充滿心靈』帶來較柔軟的第二主題，與開頭呼喊形成對照。"
+        "在「Imple：音樂轉向內在」中聽前景與後景，判斷哪一組聲音離耳朵最近。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -550,7 +550,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "準備進入「Qui Paraclitus」；聽音量退下後，獨唱與合唱如何換成懇求語氣。"
+        "下一段將轉向「Qui Paraclitus」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -588,7 +588,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "注意聽：把耳朵放在獨唱群與合唱的問答，而不只聽最高聲部。"
+        "把耳朵放在獨唱群與合唱的問答，而不只聽最高聲部。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -607,7 +607,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "這段仍在「Qui Paraclitus」；把耳朵放在獨唱群與合唱的問答，而不只聽最高聲部。"
+        "在「Qui Paraclitus」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -626,7 +626,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "把大編制拆開來聽：把耳朵放在獨唱群與合唱的問答，而不只聽最高聲部。"
+        "「Qui Paraclitus」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -645,7 +645,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "別只追音量；把耳朵放在獨唱群與合唱的問答，而不只聽最高聲部。"
+        "暫時放開最高聲部，聽中低音如何托住「Qui Paraclitus」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -664,7 +664,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "再確認一次：把耳朵放在獨唱群與合唱的問答，而不只聽最高聲部。"
+        "「Qui Paraclitus」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -683,7 +683,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "段落正在轉化；把耳朵放在獨唱群與合唱的問答，而不只聽最高聲部。"
+        "「Qui Paraclitus」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -702,7 +702,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "下一個轉折前，記住：把耳朵放在獨唱群與合唱的問答，而不只聽最高聲部。"
+        "「Qui Paraclitus」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -721,7 +721,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "護慰者的文字延續第二主題群；旋律更歌唱性，也為後面的劇烈發展保留空間。"
+        "在「Qui Paraclitus」中聽前景與後景，判斷哪一組聲音離耳朵最近。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -740,7 +740,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "準備進入「小尾奏與間奏」；把耳朵放在獨唱群與合唱的問答，而不只聽最高聲部。"
+        "下一段將轉向「小尾奏與間奏」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -778,7 +778,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "注意聽：辨認短動機，不必等待完整旋律再出現。"
+        "辨認短動機，不必等待完整旋律再出現。"
       ],
       "kind": "method",
       "movement": 0,
@@ -797,7 +797,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "這段仍在「小尾奏與間奏」；辨認短動機，不必等待完整旋律再出現。"
+        "在「小尾奏與間奏」裡只選一條線追蹤，不必同時辨認所有聲部。"
       ],
       "kind": "method",
       "movement": 0,
@@ -816,7 +816,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "把大編制拆開來聽：辨認短動機，不必等待完整旋律再出現。"
+        "「小尾奏與間奏」：先聽最高聲部，再把注意力移到低音，確認中間還藏著哪些層次。"
       ],
       "kind": "method",
       "movement": 0,
@@ -835,7 +835,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "別只追音量；辨認短動機，不必等待完整旋律再出現。"
+        "「小尾奏與間奏」：比較前十秒：真正變化的是力度、密度，還是音色配置。"
       ],
       "kind": "method",
       "movement": 0,
@@ -854,7 +854,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "再確認一次：辨認短動機，不必等待完整旋律再出現。"
+        "「小尾奏與間奏」：把起音當路標；各聲部是整齊落下，還是彼此錯開進場。"
       ],
       "kind": "method",
       "movement": 0,
@@ -873,7 +873,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "段落正在轉化；辨認短動機，不必等待完整旋律再出現。"
+        "「小尾奏與間奏」：現在只判斷旋律方向：上行、下沉，或停在長音等待接手。"
       ],
       "kind": "method",
       "movement": 0,
@@ -892,7 +892,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "準備進入「Infirma：承認肉身軟弱」；辨認短動機，不必等待完整旋律再出現。"
+        "下一段將轉向「Infirma：承認肉身軟弱」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "method",
       "movement": 0,
@@ -930,7 +930,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "注意聽：注意質地變薄，以及獨奏小提琴如何從龐大編制中浮出。"
+        "注意質地變薄，以及獨奏小提琴如何從龐大編制中浮出。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -949,7 +949,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "這段仍在「Infirma：承認肉身軟弱」；注意質地變薄，以及獨奏小提琴如何從龐大編制中浮出。"
+        "在「Infirma：承認肉身軟弱」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -968,7 +968,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "把大編制拆開來聽：注意質地變薄，以及獨奏小提琴如何從龐大編制中浮出。"
+        "「Infirma：承認肉身軟弱」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -987,7 +987,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "別只追音量；注意質地變薄，以及獨奏小提琴如何從龐大編制中浮出。"
+        "暫時放開最高聲部，聽中低音如何托住「Infirma：承認肉身軟弱」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1006,7 +1006,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "再確認一次：注意質地變薄，以及獨奏小提琴如何從龐大編制中浮出。"
+        "「Infirma：承認肉身軟弱」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1025,7 +1025,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "段落正在轉化；注意質地變薄，以及獨奏小提琴如何從龐大編制中浮出。"
+        "「Infirma：承認肉身軟弱」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1044,7 +1044,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "下一個轉折前，記住：注意質地變薄，以及獨奏小提琴如何從龐大編制中浮出。"
+        "「Infirma：承認肉身軟弱」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1063,7 +1063,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "準備進入「以永恆力量堅固」；注意質地變薄，以及獨奏小提琴如何從龐大編制中浮出。"
+        "下一段將轉向「以永恆力量堅固」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1101,7 +1101,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "注意聽：記住小號的三音輪廓，稍後可和 Veni 動機比較。"
+        "記住小號的三音輪廓，稍後可和 Veni 動機比較。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1120,7 +1120,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "這段仍在「以永恆力量堅固」；記住小號的三音輪廓，稍後可和 Veni 動機比較。"
+        "在「以永恆力量堅固」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1139,7 +1139,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "把大編制拆開來聽：記住小號的三音輪廓，稍後可和 Veni 動機比較。"
+        "「以永恆力量堅固」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1158,7 +1158,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "別只追音量；記住小號的三音輪廓，稍後可和 Veni 動機比較。"
+        "暫時放開最高聲部，聽中低音如何托住「以永恆力量堅固」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1177,7 +1177,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "再確認一次：記住小號的三音輪廓，稍後可和 Veni 動機比較。"
+        "「以永恆力量堅固」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1196,7 +1196,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "段落正在轉化；記住小號的三音輪廓，稍後可和 Veni 動機比較。"
+        "「以永恆力量堅固」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1215,7 +1215,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "下一個轉折前，記住：記住小號的三音輪廓，稍後可和 Veni 動機比較。"
+        "「以永恆力量堅固」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1234,7 +1234,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "virtute perpeti 讓軟弱與力量並置；銅管的倒影音型也預示第二部尾聲。"
+        "在「以永恆力量堅固」中聽前景與後景，判斷哪一組聲音離耳朵最近。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1253,7 +1253,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "注意聽：記住小號的三音輪廓，稍後可和 Veni 動機比較。"
+        "「以永恆力量堅固」：這十秒專聽句尾：完整停下、懸在半空，或直接接進下一句。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1272,7 +1272,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "準備進入「發展部開始擴張」；記住小號的三音輪廓，稍後可和 Veni 動機比較。"
+        "下一段將轉向「發展部開始擴張」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1310,7 +1310,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "注意聽：聽同一短句在距離、音色與力度上不斷改變。"
+        "聽同一短句在距離、音色與力度上不斷改變。"
       ],
       "kind": "method",
       "movement": 0,
@@ -1329,7 +1329,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "這段仍在「發展部開始擴張」；聽同一短句在距離、音色與力度上不斷改變。"
+        "在「發展部開始擴張」裡只選一條線追蹤，不必同時辨認所有聲部。"
       ],
       "kind": "method",
       "movement": 0,
@@ -1348,7 +1348,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽同一短句在距離、音色與力度上不斷改變。"
+        "「發展部開始擴張」：先聽最高聲部，再把注意力移到低音，確認中間還藏著哪些層次。"
       ],
       "kind": "method",
       "movement": 0,
@@ -1367,7 +1367,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "別只追音量；聽同一短句在距離、音色與力度上不斷改變。"
+        "「發展部開始擴張」：比較前十秒：真正變化的是力度、密度，還是音色配置。"
       ],
       "kind": "method",
       "movement": 0,
@@ -1386,7 +1386,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "準備進入「Lumen：光的字眼進場」；聽同一短句在距離、音色與力度上不斷改變。"
+        "下一段將轉向「Lumen：光的字眼進場」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "method",
       "movement": 0,
@@ -1424,7 +1424,7 @@ const GUIDE = {
         "video"
       ],
       "subtitle": [
-        "注意聽：留意明亮銅管與上行線條是否讓空間突然打開。"
+        "留意明亮銅管與上行線條是否讓空間突然打開。"
       ],
       "kind": "interpretation",
       "movement": 0,
@@ -1443,7 +1443,7 @@ const GUIDE = {
         "video"
       ],
       "subtitle": [
-        "這段仍在「Lumen：光的字眼進場」；留意明亮銅管與上行線條是否讓空間突然打開。"
+        "「Lumen：光的字眼進場」是一種讀法，不表示每個音符只有一套固定劇情。"
       ],
       "kind": "interpretation",
       "movement": 0,
@@ -1462,7 +1462,7 @@ const GUIDE = {
         "video"
       ],
       "subtitle": [
-        "把大編制拆開來聽：留意明亮銅管與上行線條是否讓空間突然打開。"
+        "「Lumen：光的字眼進場」：先聽文字的關鍵意象，如何被音域、速度與和聲距離放大。"
       ],
       "kind": "interpretation",
       "movement": 0,
@@ -1481,7 +1481,7 @@ const GUIDE = {
         "video"
       ],
       "subtitle": [
-        "別只追音量；留意明亮銅管與上行線條是否讓空間突然打開。"
+        "「Lumen：光的字眼進場」：暫時不追歌詞逐字，改聽母音長度與樂團線條如何改變語氣。"
       ],
       "kind": "interpretation",
       "movement": 0,
@@ -1500,7 +1500,7 @@ const GUIDE = {
         "video"
       ],
       "subtitle": [
-        "再確認一次：留意明亮銅管與上行線條是否讓空間突然打開。"
+        "在「Lumen：光的字眼進場」裡，外在景物與內在狀態常由相同動機連在一起。"
       ],
       "kind": "interpretation",
       "movement": 0,
@@ -1519,7 +1519,7 @@ const GUIDE = {
         "video"
       ],
       "subtitle": [
-        "段落正在轉化；留意明亮銅管與上行線條是否讓空間突然打開。"
+        "「Lumen：光的字眼進場」：比較前十秒：音樂是在肯定文字，還是保留矛盾與不安。"
       ],
       "kind": "interpretation",
       "movement": 0,
@@ -1538,7 +1538,7 @@ const GUIDE = {
         "video"
       ],
       "subtitle": [
-        "下一個轉折前，記住：留意明亮銅管與上行線條是否讓空間突然打開。"
+        "把最高聲部放開，聽中低音是否讓「Lumen：光的字眼進場」變得更沉、更穩。"
       ],
       "kind": "interpretation",
       "movement": 0,
@@ -1557,7 +1557,7 @@ const GUIDE = {
         "video"
       ],
       "subtitle": [
-        "準備進入「Veni 動機的間奏」；留意明亮銅管與上行線條是否讓空間突然打開。"
+        "下一段將轉向「Veni 動機的間奏」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "interpretation",
       "movement": 0,
@@ -1595,7 +1595,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "注意聽：聽木管與銅管如何從合唱手中接走材料。"
+        "聽木管與銅管如何從合唱手中接走材料。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1614,7 +1614,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "這段仍在「Veni 動機的間奏」；聽木管與銅管如何從合唱手中接走材料。"
+        "在「Veni 動機的間奏」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1633,7 +1633,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "準備進入「Accende：點燃光明」；聽木管與銅管如何從合唱手中接走材料。"
+        "下一段將轉向「Accende：點燃光明」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1671,7 +1671,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "注意聽：追蹤『點燃』的推進感；第二部也會把它轉化。"
+        "追蹤『點燃』的推進感；第二部也會把它轉化。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1690,7 +1690,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "這段仍在「Accende：點燃光明」；追蹤『點燃』的推進感；第二部也會把它轉化。"
+        "在「Accende：點燃光明」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1709,7 +1709,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "把大編制拆開來聽：追蹤『點燃』的推進感；第二部也會把它轉化。"
+        "「Accende：點燃光明」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1728,7 +1728,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "準備進入「驅逐仇敵，賜下和平」；追蹤『點燃』的推進感；第二部也會把它轉化。"
+        "下一段將轉向「驅逐仇敵，賜下和平」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1766,7 +1766,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "注意聽：聽短句如何互相追趕，和平並不是安靜降臨。"
+        "聽短句如何互相追趕，和平並不是安靜降臨。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1785,7 +1785,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "這段仍在「驅逐仇敵，賜下和平」；聽短句如何互相追趕，和平並不是安靜降臨。"
+        "在「驅逐仇敵，賜下和平」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1804,7 +1804,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "準備進入「雙主題賦格」；聽短句如何互相追趕，和平並不是安靜降臨。"
+        "下一段將轉向「雙主題賦格」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -1842,7 +1842,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "注意聽：挑一條聲部跟到底；迷路時回到節奏最清楚的銅管。"
+        "挑一條聲部跟到底；迷路時回到節奏最清楚的銅管。"
       ],
       "kind": "method",
       "movement": 0,
@@ -1861,7 +1861,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "這段仍在「雙主題賦格」；挑一條聲部跟到底；迷路時回到節奏最清楚的銅管。"
+        "在「雙主題賦格」裡只選一條線追蹤，不必同時辨認所有聲部。"
       ],
       "kind": "method",
       "movement": 0,
@@ -1880,7 +1880,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "把大編制拆開來聽：挑一條聲部跟到底；迷路時回到節奏最清楚的銅管。"
+        "「雙主題賦格」：先聽最高聲部，再把注意力移到低音，確認中間還藏著哪些層次。"
       ],
       "kind": "method",
       "movement": 0,
@@ -1899,7 +1899,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "別只追音量；挑一條聲部跟到底；迷路時回到節奏最清楚的銅管。"
+        "「雙主題賦格」：比較前十秒：真正變化的是力度、密度，還是音色配置。"
       ],
       "kind": "method",
       "movement": 0,
@@ -1918,7 +1918,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "再確認一次：挑一條聲部跟到底；迷路時回到節奏最清楚的銅管。"
+        "「雙主題賦格」：把起音當路標；各聲部是整齊落下，還是彼此錯開進場。"
       ],
       "kind": "method",
       "movement": 0,
@@ -1937,7 +1937,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "段落正在轉化；挑一條聲部跟到底；迷路時回到節奏最清楚的銅管。"
+        "「雙主題賦格」：現在只判斷旋律方向：上行、下沉，或停在長音等待接手。"
       ],
       "kind": "method",
       "movement": 0,
@@ -1956,7 +1956,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "下一個轉折前，記住：挑一條聲部跟到底；迷路時回到節奏最清楚的銅管。"
+        "在「雙主題賦格」中，短動機比完整旋律更容易辨認，先記節奏輪廓。"
       ],
       "kind": "method",
       "movement": 0,
@@ -1975,7 +1975,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "兩組既有動機同時運作；密度增加，但每個入口仍來自前面聽過的材料。"
+        "「雙主題賦格」：若聲音太多，先找持續最久的一層，再聽其他聲部如何繞著它活動。"
       ],
       "kind": "method",
       "movement": 0,
@@ -1994,7 +1994,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "注意聽：挑一條聲部跟到底；迷路時回到節奏最清楚的銅管。"
+        "「雙主題賦格」：這十秒專聽句尾：完整終止、延長懸住，或無縫接入下一句。"
       ],
       "kind": "method",
       "movement": 0,
@@ -2013,7 +2013,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "準備進入「Accende 再現」；挑一條聲部跟到底；迷路時回到節奏最清楚的銅管。"
+        "下一段將轉向「Accende 再現」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "method",
       "movement": 0,
@@ -2051,7 +2051,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "注意聽：注意合唱母音拉長時，樂團仍在內部推動。"
+        "注意合唱母音拉長時，樂團仍在內部推動。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2070,7 +2070,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "這段仍在「Accende 再現」；注意合唱母音拉長時，樂團仍在內部推動。"
+        "在「Accende 再現」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2089,7 +2089,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "把大編制拆開來聽：注意合唱母音拉長時，樂團仍在內部推動。"
+        "「Accende 再現」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2108,7 +2108,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "別只追音量；注意合唱母音拉長時，樂團仍在內部推動。"
+        "暫時放開最高聲部，聽中低音如何托住「Accende 再現」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2127,7 +2127,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "再確認一次：注意合唱母音拉長時，樂團仍在內部推動。"
+        "「Accende 再現」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2146,7 +2146,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "段落正在轉化；注意合唱母音拉長時，樂團仍在內部推動。"
+        "「Accende 再現」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2165,7 +2165,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "下一個轉折前，記住：注意合唱母音拉長時，樂團仍在內部推動。"
+        "「Accende 再現」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2184,7 +2184,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "準備進入「Veni 正式再現」；注意合唱母音拉長時，樂團仍在內部推動。"
+        "下一段將轉向「Veni 正式再現」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2222,7 +2222,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "注意聽：比較1:36的第一次出現：配器、重量與確信感都已改變。"
+        "比較1:36的第一次出現：配器、重量與確信感都已改變。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2241,7 +2241,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "這段仍在「Veni 正式再現」；比較1:36的第一次出現：配器、重量與確信感都已改變。"
+        "在「Veni 正式再現」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2260,7 +2260,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "準備進入「Qui Paraclitus 回歸」；比較1:36的第一次出現：配器、重量與確信感都已改變。"
+        "下一段將轉向「Qui Paraclitus 回歸」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2298,7 +2298,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "注意聽：聽獨唱群如何穿過合唱與厚重管弦樂。"
+        "聽獨唱群如何穿過合唱與厚重管弦樂。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2317,7 +2317,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "這段仍在「Qui Paraclitus 回歸」；聽獨唱群如何穿過合唱與厚重管弦樂。"
+        "在「Qui Paraclitus 回歸」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2336,7 +2336,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽獨唱群如何穿過合唱與厚重管弦樂。"
+        "「Qui Paraclitus 回歸」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2355,7 +2355,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "別只追音量；聽獨唱群如何穿過合唱與厚重管弦樂。"
+        "暫時放開最高聲部，聽中低音如何托住「Qui Paraclitus 回歸」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2374,7 +2374,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "再確認一次：聽獨唱群如何穿過合唱與厚重管弦樂。"
+        "「Qui Paraclitus 回歸」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2393,7 +2393,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "準備進入「和平的文字逐漸收束」；聽獨唱群如何穿過合唱與厚重管弦樂。"
+        "下一段將轉向「和平的文字逐漸收束」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2431,7 +2431,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "注意聽：聽節奏從分散逐步合攏。"
+        "聽節奏從分散逐步合攏。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2450,7 +2450,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "這段仍在「和平的文字逐漸收束」；聽節奏從分散逐步合攏。"
+        "在「和平的文字逐漸收束」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2469,7 +2469,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽節奏從分散逐步合攏。"
+        "「和平的文字逐漸收束」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2488,7 +2488,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "別只追音量；聽節奏從分散逐步合攏。"
+        "暫時放開最高聲部，聽中低音如何托住「和平的文字逐漸收束」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2507,7 +2507,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "再確認一次：聽節奏從分散逐步合攏。"
+        "「和平的文字逐漸收束」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2526,7 +2526,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "段落正在轉化；聽節奏從分散逐步合攏。"
+        "「和平的文字逐漸收束」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2545,7 +2545,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "下一個轉折前，記住：聽節奏從分散逐步合攏。"
+        "「和平的文字逐漸收束」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2564,7 +2564,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "Pacem 與盟約的文字把第一部從論辯推向肯定，尾聲正在聚集能量。"
+        "在「和平的文字逐漸收束」中聽前景與後景，判斷哪一組聲音離耳朵最近。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2583,7 +2583,7 @@ const GUIDE = {
         "latin"
       ],
       "subtitle": [
-        "準備進入「尾聲前的器樂重組」；聽節奏從分散逐步合攏。"
+        "下一段將轉向「尾聲前的器樂重組」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2621,7 +2621,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "注意聽：留意銅管不是只加大音量，而是在重申主題身份。"
+        "留意銅管不是只加大音量，而是在重申主題身份。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2640,7 +2640,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "這段仍在「尾聲前的器樂重組」；留意銅管不是只加大音量，而是在重申主題身份。"
+        "在「尾聲前的器樂重組」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2659,7 +2659,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "把大編制拆開來聽：留意銅管不是只加大音量，而是在重申主題身份。"
+        "「尾聲前的器樂重組」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2678,7 +2678,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "別只追音量；留意銅管不是只加大音量，而是在重申主題身份。"
+        "暫時放開最高聲部，聽中低音如何托住「尾聲前的器樂重組」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2697,7 +2697,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "再確認一次：留意銅管不是只加大音量，而是在重申主題身份。"
+        "「尾聲前的器樂重組」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2716,7 +2716,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "段落正在轉化；留意銅管不是只加大音量，而是在重申主題身份。"
+        "「尾聲前的器樂重組」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2735,7 +2735,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "下一個轉折前，記住：留意銅管不是只加大音量，而是在重申主題身份。"
+        "「尾聲前的器樂重組」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2754,7 +2754,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "準備進入「Gloria：榮耀頌」；留意銅管不是只加大音量，而是在重申主題身份。"
+        "下一段將轉向「Gloria：榮耀頌」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2792,7 +2792,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "注意聽：聽童聲、成人合唱與獨唱如何形成多層高度。"
+        "聽童聲、成人合唱與獨唱如何形成多層高度。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2811,7 +2811,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "這段仍在「Gloria：榮耀頌」；聽童聲、成人合唱與獨唱如何形成多層高度。"
+        "在「Gloria：榮耀頌」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2830,7 +2830,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽童聲、成人合唱與獨唱如何形成多層高度。"
+        "「Gloria：榮耀頌」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2849,7 +2849,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "別只追音量；聽童聲、成人合唱與獨唱如何形成多層高度。"
+        "暫時放開最高聲部，聽中低音如何托住「Gloria：榮耀頌」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2868,7 +2868,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "再確認一次：聽童聲、成人合唱與獨唱如何形成多層高度。"
+        "「Gloria：榮耀頌」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2887,7 +2887,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "段落正在轉化；聽童聲、成人合唱與獨唱如何形成多層高度。"
+        "「Gloria：榮耀頌」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2906,7 +2906,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "下一個轉折前，記住：聽童聲、成人合唱與獨唱如何形成多層高度。"
+        "「Gloria：榮耀頌」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2925,7 +2925,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "Gloria Patri Domino 讓前面所有祈求轉為公開的頌讚。"
+        "在「Gloria：榮耀頌」中聽前景與後景，判斷哪一組聲音離耳朵最近。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2944,7 +2944,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "注意聽：聽童聲、成人合唱與獨唱如何形成多層高度。"
+        "「Gloria：榮耀頌」：這十秒專聽句尾：完整停下、懸在半空，或直接接進下一句。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -2963,7 +2963,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "準備進入「遠距銅管加入」；聽童聲、成人合唱與獨唱如何形成多層高度。"
+        "下一段將轉向「遠距銅管加入」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -3001,7 +3001,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "注意聽：辨認台上與遠處銅管的距離差，並留意管風琴的基礎。"
+        "辨認台上與遠處銅管的距離差，並留意管風琴的基礎。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -3020,7 +3020,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "這段仍在「遠距銅管加入」；辨認台上與遠處銅管的距離差，並留意管風琴的基礎。"
+        "在「遠距銅管加入」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -3039,7 +3039,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "把大編制拆開來聽：辨認台上與遠處銅管的距離差，並留意管風琴的基礎。"
+        "「遠距銅管加入」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -3058,7 +3058,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "準備進入「第一部的巨大句點」；辨認台上與遠處銅管的距離差，並留意管風琴的基礎。"
+        "下一段將轉向「第一部的巨大句點」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -3096,7 +3096,7 @@ const GUIDE = {
         "video"
       ],
       "subtitle": [
-        "注意聽：讓最後和弦自然消退，記住明亮與集體的重量。"
+        "讓最後和弦自然消退，記住明亮與集體的重量。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -3115,7 +3115,7 @@ const GUIDE = {
         "video"
       ],
       "subtitle": [
-        "這段仍在「第一部的巨大句點」；讓最後和弦自然消退，記住明亮與集體的重量。"
+        "在「第一部的巨大句點」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -3134,7 +3134,7 @@ const GUIDE = {
         "video"
       ],
       "subtitle": [
-        "準備進入「第二部：浮士德終幕」；讓最後和弦自然消退，記住明亮與集體的重量。"
+        "下一段將轉向「第二部：浮士德終幕」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 0,
@@ -3172,7 +3172,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「長笛畫出第一個輪廓」；音樂從寂靜、山谷與霧氣出發，先不要急著等歌聲。"
+        "音樂從寂靜、山谷與霧氣出發，先不要急著等歌聲。"
       ],
       "kind": "story",
       "movement": 1,
@@ -3210,7 +3210,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "注意聽：聽孤立的長笛如何在低弦與寂靜間留下光點。"
+        "聽孤立的長笛如何在低弦與寂靜間留下光點。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3229,7 +3229,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "這段仍在「長笛畫出第一個輪廓」；聽孤立的長笛如何在低弦與寂靜間留下光點。"
+        "在「長笛畫出第一個輪廓」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3248,7 +3248,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽孤立的長笛如何在低弦與寂靜間留下光點。"
+        "「長笛畫出第一個輪廓」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3267,7 +3267,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "別只追音量；聽孤立的長笛如何在低弦與寂靜間留下光點。"
+        "暫時放開最高聲部，聽中低音如何托住「長笛畫出第一個輪廓」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3286,7 +3286,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "再確認一次：聽孤立的長笛如何在低弦與寂靜間留下光點。"
+        "「長笛畫出第一個輪廓」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3305,7 +3305,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "段落正在轉化；聽孤立的長笛如何在低弦與寂靜間留下光點。"
+        "「長笛畫出第一個輪廓」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3324,7 +3324,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "下一個轉折前，記住：聽孤立的長笛如何在低弦與寂靜間留下光點。"
+        "「長笛畫出第一個輪廓」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3343,7 +3343,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "長笛從第一部『點燃光明』的材料延伸出第二部基本動機。"
+        "在「長笛畫出第一個輪廓」中聽前景與後景，判斷哪一組聲音離耳朵最近。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3362,7 +3362,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "準備進入「岩壁、森林與深谷」；聽孤立的長笛如何在低弦與寂靜間留下光點。"
+        "下一段將轉向「岩壁、森林與深谷」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3400,7 +3400,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "注意聽：聽低音的重量與高音木管的距離，想像上下層而非左右聲道。"
+        "聽低音的重量與高音木管的距離，想像上下層而非左右聲道。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -3419,7 +3419,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "這段仍在「岩壁、森林與深谷」；聽低音的重量與高音木管的距離，想像上下層而非左右聲道。"
+        "「岩壁、森林與深谷」是一種讀法，不表示每個音符只有一套固定劇情。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -3438,7 +3438,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽低音的重量與高音木管的距離，想像上下層而非左右聲道。"
+        "「岩壁、森林與深谷」：先聽文字的關鍵意象，如何被音域、速度與和聲距離放大。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -3457,7 +3457,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "別只追音量；聽低音的重量與高音木管的距離，想像上下層而非左右聲道。"
+        "「岩壁、森林與深谷」：暫時不追歌詞逐字，改聽母音長度與樂團線條如何改變語氣。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -3476,7 +3476,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "再確認一次：聽低音的重量與高音木管的距離，想像上下層而非左右聲道。"
+        "在「岩壁、森林與深谷」裡，外在景物與內在狀態常由相同動機連在一起。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -3495,7 +3495,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "段落正在轉化；聽低音的重量與高音木管的距離，想像上下層而非左右聲道。"
+        "「岩壁、森林與深谷」：比較前十秒：音樂是在肯定文字，還是保留矛盾與不安。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -3514,7 +3514,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "下一個轉折前，記住：聽低音的重量與高音木管的距離，想像上下層而非左右聲道。"
+        "把最高聲部放開，聽中低音是否讓「岩壁、森林與深谷」變得更沉、更穩。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -3533,7 +3533,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "這段器樂序奏不是單純風景畫，而是為靈魂上升建立垂直空間。"
+        "「岩壁、森林與深谷」：注意聲音的遠近；空間位置也在參與這段意義的形成。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -3552,7 +3552,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "注意聽：聽低音的重量與高音木管的距離，想像上下層而非左右聲道。"
+        "「岩壁、森林與深谷」：若熟悉動機再現，先判斷它換了誰來唱、誰來伴奏。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -3571,7 +3571,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "準備進入「寂靜中的呼吸」；聽低音的重量與高音木管的距離，想像上下層而非左右聲道。"
+        "下一段將轉向「寂靜中的呼吸」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -3609,7 +3609,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "注意聽：注意弱音弦樂的持續與木管獨奏的孤獨感。"
+        "注意弱音弦樂的持續與木管獨奏的孤獨感。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3628,7 +3628,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "這段仍在「寂靜中的呼吸」；注意弱音弦樂的持續與木管獨奏的孤獨感。"
+        "在「寂靜中的呼吸」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3647,7 +3647,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "把大編制拆開來聽：注意弱音弦樂的持續與木管獨奏的孤獨感。"
+        "「寂靜中的呼吸」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3666,7 +3666,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "別只追音量；注意弱音弦樂的持續與木管獨奏的孤獨感。"
+        "暫時放開最高聲部，聽中低音如何托住「寂靜中的呼吸」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3685,7 +3685,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "再確認一次：注意弱音弦樂的持續與木管獨奏的孤獨感。"
+        "「寂靜中的呼吸」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3704,7 +3704,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "段落正在轉化；注意弱音弦樂的持續與木管獨奏的孤獨感。"
+        "「寂靜中的呼吸」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3723,7 +3723,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "下一個轉折前，記住：注意弱音弦樂的持續與木管獨奏的孤獨感。"
+        "「寂靜中的呼吸」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3742,7 +3742,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "長句之間保留大量空白；龐大編制此刻靠克制而不是堆疊製造尺度。"
+        "在「寂靜中的呼吸」中聽前景與後景，判斷哪一組聲音離耳朵最近。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3761,7 +3761,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "注意聽：注意弱音弦樂的持續與木管獨奏的孤獨感。"
+        "「寂靜中的呼吸」：這十秒專聽句尾：完整停下、懸在半空，或直接接進下一句。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3780,7 +3780,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "這段仍在「寂靜中的呼吸」；注意弱音弦樂的持續與木管獨奏的孤獨感。"
+        "「寂靜中的呼吸」：若熟悉輪廓出現，先別急著命名；聽它被哪一組聲音接走。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3799,7 +3799,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "把大編制拆開來聽：注意弱音弦樂的持續與木管獨奏的孤獨感。"
+        "回想「寂靜中的呼吸」開始時的重量，現在增加或抽掉了哪些層次。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3818,7 +3818,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "準備進入「法國號動機1b」；注意弱音弦樂的持續與木管獨奏的孤獨感。"
+        "下一段將轉向「法國號動機1b」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3856,7 +3856,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "注意聽：把這段與先前長笛比較：輪廓相關，性格卻已改變。"
+        "把這段與先前長笛比較：輪廓相關，性格卻已改變。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3875,7 +3875,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "這段仍在「法國號動機1b」；把這段與先前長笛比較：輪廓相關，性格卻已改變。"
+        "在「法國號動機1b」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3894,7 +3894,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "把大編制拆開來聽：把這段與先前長笛比較：輪廓相關，性格卻已改變。"
+        "「法國號動機1b」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3913,7 +3913,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "別只追音量；把這段與先前長笛比較：輪廓相關，性格卻已改變。"
+        "暫時放開最高聲部，聽中低音如何托住「法國號動機1b」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3932,7 +3932,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "再確認一次：把這段與先前長笛比較：輪廓相關，性格卻已改變。"
+        "「法國號動機1b」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3951,7 +3951,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "準備進入「自然聲響轉為精神空間」；把這段與先前長笛比較：輪廓相關，性格卻已改變。"
+        "下一段將轉向「自然聲響轉為精神空間」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -3989,7 +3989,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：聽節奏何時開始獲得方向，而不再只是懸浮。"
+        "聽節奏何時開始獲得方向，而不再只是懸浮。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -4008,7 +4008,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「自然聲響轉為精神空間」；聽節奏何時開始獲得方向，而不再只是懸浮。"
+        "「自然聲響轉為精神空間」是一種讀法，不表示每個音符只有一套固定劇情。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -4027,7 +4027,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽節奏何時開始獲得方向，而不再只是懸浮。"
+        "「自然聲響轉為精神空間」：先聽文字的關鍵意象，如何被音域、速度與和聲距離放大。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -4046,7 +4046,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；聽節奏何時開始獲得方向，而不再只是懸浮。"
+        "「自然聲響轉為精神空間」：暫時不追歌詞逐字，改聽母音長度與樂團線條如何改變語氣。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -4065,7 +4065,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "再確認一次：聽節奏何時開始獲得方向，而不再只是懸浮。"
+        "在「自然聲響轉為精神空間」裡，外在景物與內在狀態常由相同動機連在一起。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -4084,7 +4084,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「喜悅動機」；聽節奏何時開始獲得方向，而不再只是懸浮。"
+        "下一段將轉向「喜悅動機」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -4122,7 +4122,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "注意聽：先記住它的靈巧感，稍後在人聲場景中辨認。"
+        "先記住它的靈巧感，稍後在人聲場景中辨認。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4141,7 +4141,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "這段仍在「喜悅動機」；先記住它的靈巧感，稍後在人聲場景中辨認。"
+        "在「喜悅動機」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4160,7 +4160,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "把大編制拆開來聽：先記住它的靈巧感，稍後在人聲場景中辨認。"
+        "「喜悅動機」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4179,7 +4179,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "別只追音量；先記住它的靈巧感，稍後在人聲場景中辨認。"
+        "暫時放開最高聲部，聽中低音如何托住「喜悅動機」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4198,7 +4198,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "再確認一次：先記住它的靈巧感，稍後在人聲場景中辨認。"
+        "「喜悅動機」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4217,7 +4217,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "段落正在轉化；先記住它的靈巧感，稍後在人聲場景中辨認。"
+        "「喜悅動機」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4236,7 +4236,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "準備進入「合唱與回聲：森林搖曳」；先記住它的靈巧感，稍後在人聲場景中辨認。"
+        "下一段將轉向「合唱與回聲：森林搖曳」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4274,7 +4274,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：聽主合唱與回聲造成的遠近，而不是把它當成齊唱。"
+        "聽主合唱與回聲造成的遠近，而不是把它當成齊唱。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4293,7 +4293,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「合唱與回聲：森林搖曳」；聽主合唱與回聲造成的遠近，而不是把它當成齊唱。"
+        "在「合唱與回聲：森林搖曳」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4312,7 +4312,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽主合唱與回聲造成的遠近，而不是把它當成齊唱。"
+        "「合唱與回聲：森林搖曳」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4331,7 +4331,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；聽主合唱與回聲造成的遠近，而不是把它當成齊唱。"
+        "暫時放開最高聲部，聽中低音如何托住「合唱與回聲：森林搖曳」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4350,7 +4350,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "再確認一次：聽主合唱與回聲造成的遠近，而不是把它當成齊唱。"
+        "「合唱與回聲：森林搖曳」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4369,7 +4369,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "段落正在轉化；聽主合唱與回聲造成的遠近，而不是把它當成齊唱。"
+        "「合唱與回聲：森林搖曳」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4388,7 +4388,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "下一個轉折前，記住：聽主合唱與回聲造成的遠近，而不是把它當成齊唱。"
+        "「合唱與回聲：森林搖曳」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4407,7 +4407,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "合唱從山谷深處般進場，文字描寫森林、岩石、根與波浪。"
+        "在「合唱與回聲：森林搖曳」中聽前景與後景，判斷哪一組聲音離耳朵最近。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4426,7 +4426,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：聽主合唱與回聲造成的遠近，而不是把它當成齊唱。"
+        "「合唱與回聲：森林搖曳」：這十秒專聽句尾：完整停下、懸在半空，或直接接進下一句。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4445,7 +4445,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「自然不是背景布景」；聽主合唱與回聲造成的遠近，而不是把它當成齊唱。"
+        "下一段將轉向「自然不是背景布景」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4483,7 +4483,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：注意每次回聲是否比原句更遠、更輕或更模糊。"
+        "注意每次回聲是否比原句更遠、更輕或更模糊。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -4502,7 +4502,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「自然不是背景布景」；注意每次回聲是否比原句更遠、更輕或更模糊。"
+        "「自然不是背景布景」是一種讀法，不表示每個音符只有一套固定劇情。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -4521,7 +4521,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：注意每次回聲是否比原句更遠、更輕或更模糊。"
+        "「自然不是背景布景」：先聽文字的關鍵意象，如何被音域、速度與和聲距離放大。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -4540,7 +4540,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；注意每次回聲是否比原句更遠、更輕或更模糊。"
+        "「自然不是背景布景」：暫時不追歌詞逐字，改聽母音長度與樂團線條如何改變語氣。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -4559,7 +4559,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "再確認一次：注意每次回聲是否比原句更遠、更輕或更模糊。"
+        "在「自然不是背景布景」裡，外在景物與內在狀態常由相同動機連在一起。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -4578,7 +4578,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "段落正在轉化；注意每次回聲是否比原句更遠、更輕或更模糊。"
+        "「自然不是背景布景」：比較前十秒：音樂是在肯定文字，還是保留矛盾與不安。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -4597,7 +4597,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "下一個轉折前，記住：注意每次回聲是否比原句更遠、更輕或更模糊。"
+        "把最高聲部放開，聽中低音是否讓「自然不是背景布景」變得更沉、更穩。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -4616,7 +4616,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "歌德的山谷讓物質世界本身朝超越性的方向運動；馬勒用空間化合唱強化這一點。"
+        "「自然不是背景布景」：注意聲音的遠近；空間位置也在參與這段意義的形成。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -4635,7 +4635,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：注意每次回聲是否比原句更遠、更輕或更模糊。"
+        "「自然不是背景布景」：若熟悉動機再現，先判斷它換了誰來唱、誰來伴奏。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -4654,7 +4654,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「自然不是背景布景」；注意每次回聲是否比原句更遠、更輕或更模糊。"
+        "「自然不是背景布景」：這裡的高潮未必是最大音量，也可能是和聲終於找到方向。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -4673,7 +4673,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「極樂神父」；注意每次回聲是否比原句更遠、更輕或更模糊。"
+        "下一段將轉向「極樂神父」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -4711,7 +4711,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：聽獨唱如何在厚重和聲上保持語句清晰。"
+        "聽獨唱如何在厚重和聲上保持語句清晰。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4730,7 +4730,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「極樂神父」；聽獨唱如何在厚重和聲上保持語句清晰。"
+        "在「極樂神父」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4749,7 +4749,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽獨唱如何在厚重和聲上保持語句清晰。"
+        "「極樂神父」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4768,7 +4768,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；聽獨唱如何在厚重和聲上保持語句清晰。"
+        "暫時放開最高聲部，聽中低音如何托住「極樂神父」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4787,7 +4787,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "再確認一次：聽獨唱如何在厚重和聲上保持語句清晰。"
+        "「極樂神父」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4806,7 +4806,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "段落正在轉化；聽獨唱如何在厚重和聲上保持語句清晰。"
+        "「極樂神父」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4825,7 +4825,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "下一個轉折前，記住：聽獨唱如何在厚重和聲上保持語句清晰。"
+        "「極樂神父」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4844,7 +4844,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "男中音以燃燒、愛與痛苦的意象出場，音樂帶著近乎狂喜的熱度。"
+        "在「極樂神父」中聽前景與後景，判斷哪一組聲音離耳朵最近。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4863,7 +4863,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：聽獨唱如何在厚重和聲上保持語句清晰。"
+        "「極樂神父」：這十秒專聽句尾：完整停下、懸在半空，或直接接進下一句。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4882,7 +4882,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「沉思神父」；聽獨唱如何在厚重和聲上保持語句清晰。"
+        "下一段將轉向「沉思神父」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4920,7 +4920,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：留意低音線條與法國號動機的關係。"
+        "留意低音線條與法國號動機的關係。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4939,7 +4939,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「沉思神父」；留意低音線條與法國號動機的關係。"
+        "在「沉思神父」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4958,7 +4958,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：留意低音線條與法國號動機的關係。"
+        "「沉思神父」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4977,7 +4977,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；留意低音線條與法國號動機的關係。"
+        "暫時放開最高聲部，聽中低音如何托住「沉思神父」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -4996,7 +4996,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "再確認一次：留意低音線條與法國號動機的關係。"
+        "「沉思神父」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5015,7 +5015,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "段落正在轉化；留意低音線條與法國號動機的關係。"
+        "「沉思神父」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5034,7 +5034,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "下一個轉折前，記住：留意低音線條與法國號動機的關係。"
+        "「沉思神父」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5053,7 +5053,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "男低音從深淵、瀑布與巨木談全能的愛；聲部重量呼應岩石般的意象。"
+        "在「沉思神父」中聽前景與後景，判斷哪一組聲音離耳朵最近。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5072,7 +5072,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：留意低音線條與法國號動機的關係。"
+        "「沉思神父」：這十秒專聽句尾：完整停下、懸在半空，或直接接進下一句。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5091,7 +5091,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「轟鳴也能是愛的使者」；留意低音線條與法國號動機的關係。"
+        "下一段將轉向「轟鳴也能是愛的使者」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5129,7 +5129,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：聽樂團的狂暴如何仍被長線旋律約束。"
+        "聽樂團的狂暴如何仍被長線旋律約束。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -5148,7 +5148,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「轟鳴也能是愛的使者」；聽樂團的狂暴如何仍被長線旋律約束。"
+        "「轟鳴也能是愛的使者」是一種讀法，不表示每個音符只有一套固定劇情。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -5167,7 +5167,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽樂團的狂暴如何仍被長線旋律約束。"
+        "「轟鳴也能是愛的使者」：先聽文字的關鍵意象，如何被音域、速度與和聲距離放大。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -5186,7 +5186,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；聽樂團的狂暴如何仍被長線旋律約束。"
+        "「轟鳴也能是愛的使者」：暫時不追歌詞逐字，改聽母音長度與樂團線條如何改變語氣。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -5205,7 +5205,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "再確認一次：聽樂團的狂暴如何仍被長線旋律約束。"
+        "在「轟鳴也能是愛的使者」裡，外在景物與內在狀態常由相同動機連在一起。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -5224,7 +5224,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "段落正在轉化；聽樂團的狂暴如何仍被長線旋律約束。"
+        "「轟鳴也能是愛的使者」：比較前十秒：音樂是在肯定文字，還是保留矛盾與不安。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -5243,7 +5243,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "下一個轉折前，記住：聽樂團的狂暴如何仍被長線旋律約束。"
+        "把最高聲部放開，聽中低音是否讓「轟鳴也能是愛的使者」變得更沉、更穩。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -5262,7 +5262,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "瀑布與閃電不只威脅，也被理解為滋養、淨化與創造的力量。"
+        "「轟鳴也能是愛的使者」：注意聲音的遠近；空間位置也在參與這段意義的形成。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -5281,7 +5281,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「祈求心靈被照亮」；聽樂團的狂暴如何仍被長線旋律約束。"
+        "下一段將轉向「祈求心靈被照亮」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -5319,7 +5319,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：聽伴奏何時變得較透明，讓文字居前。"
+        "聽伴奏何時變得較透明，讓文字居前。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5338,7 +5338,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「祈求心靈被照亮」；聽伴奏何時變得較透明，讓文字居前。"
+        "在「祈求心靈被照亮」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5357,7 +5357,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽伴奏何時變得較透明，讓文字居前。"
+        "「祈求心靈被照亮」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5376,7 +5376,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；聽伴奏何時變得較透明，讓文字居前。"
+        "暫時放開最高聲部，聽中低音如何托住「祈求心靈被照亮」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5395,7 +5395,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "再確認一次：聽伴奏何時變得較透明，讓文字居前。"
+        "「祈求心靈被照亮」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5414,7 +5414,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「天使宣告浮士德得救」；聽伴奏何時變得較透明，讓文字居前。"
+        "下一段將轉向「天使宣告浮士德得救」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5452,7 +5452,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "準備進入「得救的兒童加入」；注意第一部 Accende 的光明材料如何被置入新文本。"
+        "注意第一部 Accende 的光明材料如何被置入新文本。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -5490,7 +5490,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "注意聽：辨認童聲的明亮位置與成人女聲的差異。"
+        "辨認童聲的明亮位置與成人女聲的差異。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5509,7 +5509,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "這段仍在「得救的兒童加入」；辨認童聲的明亮位置與成人女聲的差異。"
+        "在「得救的兒童加入」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5528,7 +5528,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "準備進入「年輕天使與玫瑰」；辨認童聲的明亮位置與成人女聲的差異。"
+        "下一段將轉向「年輕天使與玫瑰」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5566,7 +5566,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：追蹤快速木管與較短的合唱音節。"
+        "追蹤快速木管與較短的合唱音節。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5585,7 +5585,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「年輕天使與玫瑰」；追蹤快速木管與較短的合唱音節。"
+        "在「年輕天使與玫瑰」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5604,7 +5604,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：追蹤快速木管與較短的合唱音節。"
+        "「年輕天使與玫瑰」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5623,7 +5623,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「地獄刑罰變成愛的痛楚」；追蹤快速木管與較短的合唱音節。"
+        "下一段將轉向「地獄刑罰變成愛的痛楚」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5661,7 +5661,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "注意聽：留意節奏的咬字與突出的配器顏色。"
+        "留意節奏的咬字與突出的配器顏色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5680,7 +5680,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "這段仍在「地獄刑罰變成愛的痛楚」；留意節奏的咬字與突出的配器顏色。"
+        "在「地獄刑罰變成愛的痛楚」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5699,7 +5699,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "把大編制拆開來聽：留意節奏的咬字與突出的配器顏色。"
+        "「地獄刑罰變成愛的痛楚」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5718,7 +5718,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "別只追音量；留意節奏的咬字與突出的配器顏色。"
+        "暫時放開最高聲部，聽中低音如何托住「地獄刑罰變成愛的痛楚」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5737,7 +5737,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "再確認一次：留意節奏的咬字與突出的配器顏色。"
+        "「地獄刑罰變成愛的痛楚」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5756,7 +5756,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "段落正在轉化；留意節奏的咬字與突出的配器顏色。"
+        "「地獄刑罰變成愛的痛楚」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5775,7 +5775,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "準備進入「較成熟的天使」；留意節奏的咬字與突出的配器顏色。"
+        "下一段將轉向「較成熟的天使」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5813,7 +5813,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：聽音樂如何從嬉鬧轉為沉著，並留意小提琴獨奏。"
+        "聽音樂如何從嬉鬧轉為沉著，並留意小提琴獨奏。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5832,7 +5832,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「較成熟的天使」；聽音樂如何從嬉鬧轉為沉著，並留意小提琴獨奏。"
+        "在「較成熟的天使」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5851,7 +5851,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽音樂如何從嬉鬧轉為沉著，並留意小提琴獨奏。"
+        "「較成熟的天使」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5870,7 +5870,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；聽音樂如何從嬉鬧轉為沉著，並留意小提琴獨奏。"
+        "暫時放開最高聲部，聽中低音如何托住「較成熟的天使」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5889,7 +5889,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "再確認一次：聽音樂如何從嬉鬧轉為沉著，並留意小提琴獨奏。"
+        "「較成熟的天使」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5908,7 +5908,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "段落正在轉化；聽音樂如何從嬉鬧轉為沉著，並留意小提琴獨奏。"
+        "「較成熟的天使」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5927,7 +5927,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "下一個轉折前，記住：聽音樂如何從嬉鬧轉為沉著，並留意小提琴獨奏。"
+        "「較成熟的天使」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5946,7 +5946,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "他們承認浮士德仍帶著塵世殘餘；永恆的愛才能分開靈與物的雙重本性。"
+        "在「較成熟的天使」中聽前景與後景，判斷哪一組聲音離耳朵最近。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -5965,7 +5965,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「喜悅動機再次活動」；聽音樂如何從嬉鬧轉為沉著，並留意小提琴獨奏。"
+        "下一段將轉向「喜悅動機再次活動」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6003,7 +6003,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "注意聽：聽木管的靈巧線條與合唱的浮動感。"
+        "聽木管的靈巧線條與合唱的浮動感。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6022,7 +6022,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "這段仍在「喜悅動機再次活動」；聽木管的靈巧線條與合唱的浮動感。"
+        "在「喜悅動機再次活動」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6041,7 +6041,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "準備進入「視野打開」；聽木管的靈巧線條與合唱的浮動感。"
+        "下一段將轉向「視野打開」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6060,7 +6060,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「得救兒童歡迎新來者」；注意和聲與音域是否突然向上展開。"
+        "『這裡視野開闊』像舞台轉景，也準備讓崇敬瑪莉亞的學者出現。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6098,7 +6098,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：聽童聲與樂團快速動機的咬合。"
+        "聽童聲與樂團快速動機的咬合。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6117,7 +6117,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「Doctor Marianus」；聽童聲與樂團快速動機的咬合。"
+        "下一段將轉向「Doctor Marianus」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6155,7 +6155,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：讓耳朵從群體聲響轉向單一男高音的長線。"
+        "讓耳朵從群體聲響轉向單一男高音的長線。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6174,7 +6174,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「Doctor Marianus」；讓耳朵從群體聲響轉向單一男高音的長線。"
+        "在「Doctor Marianus」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6193,7 +6193,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：讓耳朵從群體聲響轉向單一男高音的長線。"
+        "「Doctor Marianus」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6212,7 +6212,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；讓耳朵從群體聲響轉向單一男高音的長線。"
+        "暫時放開最高聲部，聽中低音如何托住「Doctor Marianus」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6231,7 +6231,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "再確認一次：讓耳朵從群體聲響轉向單一男高音的長線。"
+        "「Doctor Marianus」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6250,7 +6250,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "段落正在轉化；讓耳朵從群體聲響轉向單一男高音的長線。"
+        "「Doctor Marianus」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6269,7 +6269,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "下一個轉折前，記住：讓耳朵從群體聲響轉向單一男高音的長線。"
+        "「Doctor Marianus」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6288,7 +6288,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "男高音仰望天后；這是全曲最長、最具抒情光澤的獨唱段落之一。"
+        "在「Doctor Marianus」中聽前景與後景，判斷哪一組聲音離耳朵最近。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6307,7 +6307,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：讓耳朵從群體聲響轉向單一男高音的長線。"
+        "「Doctor Marianus」：這十秒專聽句尾：完整停下、懸在半空，或直接接進下一句。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6326,7 +6326,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「Doctor Marianus」；讓耳朵從群體聲響轉向單一男高音的長線。"
+        "「Doctor Marianus」：若熟悉輪廓出現，先別急著命名；聽它被哪一組聲音接走。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6345,7 +6345,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「熱度被安撫」；讓耳朵從群體聲響轉向單一男高音的長線。"
+        "下一段將轉向「熱度被安撫」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6383,7 +6383,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "注意聽：聽同一聲音如何在英雄式與祈禱式語氣間轉換。"
+        "聽同一聲音如何在英雄式與祈禱式語氣間轉換。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6402,7 +6402,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "這段仍在「熱度被安撫」；聽同一聲音如何在英雄式與祈禱式語氣間轉換。"
+        "在「熱度被安撫」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6421,7 +6421,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽同一聲音如何在英雄式與祈禱式語氣間轉換。"
+        "「熱度被安撫」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6440,7 +6440,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "別只追音量；聽同一聲音如何在英雄式與祈禱式語氣間轉換。"
+        "暫時放開最高聲部，聽中低音如何托住「熱度被安撫」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6459,7 +6459,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "再確認一次：聽同一聲音如何在英雄式與祈禱式語氣間轉換。"
+        "「熱度被安撫」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6478,7 +6478,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "段落正在轉化；聽同一聲音如何在英雄式與祈禱式語氣間轉換。"
+        "「熱度被安撫」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6497,7 +6497,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "下一個轉折前，記住：聽同一聲音如何在英雄式與祈禱式語氣間轉換。"
+        "「熱度被安撫」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6516,7 +6516,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "文字從不可征服的熱情轉向被慈悲平息，配器也由熾烈逐步變柔。"
+        "在「熱度被安撫」中聽前景與後景，判斷哪一組聲音離耳朵最近。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6535,7 +6535,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "注意聽：聽同一聲音如何在英雄式與祈禱式語氣間轉換。"
+        "「熱度被安撫」：這十秒專聽句尾：完整停下、懸在半空，或直接接進下一句。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6554,7 +6554,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "這段仍在「熱度被安撫」；聽同一聲音如何在英雄式與祈禱式語氣間轉換。"
+        "「熱度被安撫」：若熟悉輪廓出現，先別急著命名；聽它被哪一組聲音接走。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6573,7 +6573,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽同一聲音如何在英雄式與祈禱式語氣間轉換。"
+        "回想「熱度被安撫」開始時的重量，現在增加或抽掉了哪些層次。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6592,7 +6592,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "準備進入「聖母主題」；聽同一聲音如何在英雄式與祈禱式語氣間轉換。"
+        "下一段將轉向「聖母主題」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6630,7 +6630,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "注意聽：記住柔和、延展的旋律，不要把它誤認為人物已經開口。"
+        "記住柔和、延展的旋律，不要把它誤認為人物已經開口。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6649,7 +6649,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "這段仍在「聖母主題」；記住柔和、延展的旋律，不要把它誤認為人物已經開口。"
+        "在「聖母主題」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6668,7 +6668,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "把大編制拆開來聽：記住柔和、延展的旋律，不要把它誤認為人物已經開口。"
+        "「聖母主題」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6687,7 +6687,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "別只追音量；記住柔和、延展的旋律，不要把它誤認為人物已經開口。"
+        "暫時放開最高聲部，聽中低音如何托住「聖母主題」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6706,7 +6706,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "再確認一次：記住柔和、延展的旋律，不要把它誤認為人物已經開口。"
+        "「聖母主題」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6725,7 +6725,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "段落正在轉化；記住柔和、延展的旋律，不要把它誤認為人物已經開口。"
+        "「聖母主題」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6744,7 +6744,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "下一個轉折前，記住：記住柔和、延展的旋律，不要把它誤認為人物已經開口。"
+        "「聖母主題」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6763,7 +6763,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "器樂先呈示與 Mater Gloriosa 相關的主題；它會支配後半部的向上運動。"
+        "在「聖母主題」中聽前景與後景，判斷哪一組聲音離耳朵最近。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6782,7 +6782,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "準備進入「合唱迎向未受玷污者」；記住柔和、延展的旋律，不要把它誤認為人物已經開口。"
+        "下一段將轉向「合唱迎向未受玷污者」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6820,7 +6820,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：聽合唱如何托住之後輪流出現的女聲獨唱。"
+        "聽合唱如何托住之後輪流出現的女聲獨唱。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6839,7 +6839,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「合唱迎向未受玷污者」；聽合唱如何托住之後輪流出現的女聲獨唱。"
+        "在「合唱迎向未受玷污者」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6858,7 +6858,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽合唱如何托住之後輪流出現的女聲獨唱。"
+        "「合唱迎向未受玷污者」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6877,7 +6877,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；聽合唱如何托住之後輪流出現的女聲獨唱。"
+        "暫時放開最高聲部，聽中低音如何托住「合唱迎向未受玷污者」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6896,7 +6896,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「誰能靠自己掙脫？」；聽合唱如何托住之後輪流出現的女聲獨唱。"
+        "下一段將轉向「誰能靠自己掙脫？」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -6934,7 +6934,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：注意旋律的虔敬動機與較收斂的力度。"
+        "注意旋律的虔敬動機與較收斂的力度。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -6953,7 +6953,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「誰能靠自己掙脫？」；注意旋律的虔敬動機與較收斂的力度。"
+        "「誰能靠自己掙脫？」是一種讀法，不表示每個音符只有一套固定劇情。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -6972,7 +6972,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：注意旋律的虔敬動機與較收斂的力度。"
+        "「誰能靠自己掙脫？」：先聽文字的關鍵意象，如何被音域、速度與和聲距離放大。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -6991,7 +6991,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；注意旋律的虔敬動機與較收斂的力度。"
+        "「誰能靠自己掙脫？」：暫時不追歌詞逐字，改聽母音長度與樂團線條如何改變語氣。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -7010,7 +7010,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "再確認一次：注意旋律的虔敬動機與較收斂的力度。"
+        "在「誰能靠自己掙脫？」裡，外在景物與內在狀態常由相同動機連在一起。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -7029,7 +7029,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "段落正在轉化；注意旋律的虔敬動機與較收斂的力度。"
+        "「誰能靠自己掙脫？」：比較前十秒：音樂是在肯定文字，還是保留矛盾與不安。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -7048,7 +7048,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「罪孽深重之女」；注意旋律的虔敬動機與較收斂的力度。"
+        "下一段將轉向「罪孽深重之女」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -7086,7 +7086,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：辨認新的女聲音色，並聽豎琴／弦樂如何減輕重量。"
+        "辨認新的女聲音色，並聽豎琴／弦樂如何減輕重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7105,7 +7105,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「罪孽深重之女」；辨認新的女聲音色，並聽豎琴／弦樂如何減輕重量。"
+        "在「罪孽深重之女」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7124,7 +7124,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：辨認新的女聲音色，並聽豎琴／弦樂如何減輕重量。"
+        "「罪孽深重之女」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7143,7 +7143,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；辨認新的女聲音色，並聽豎琴／弦樂如何減輕重量。"
+        "暫時放開最高聲部，聽中低音如何托住「罪孽深重之女」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7162,7 +7162,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「撒瑪莉亞之女」；辨認新的女聲音色，並聽豎琴／弦樂如何減輕重量。"
+        "下一段將轉向「撒瑪莉亞之女」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7200,7 +7200,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：聽較深的女聲音域與流動伴奏。"
+        "聽較深的女聲音域與流動伴奏。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7219,7 +7219,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「撒瑪莉亞之女」；聽較深的女聲音域與流動伴奏。"
+        "在「撒瑪莉亞之女」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7238,7 +7238,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽較深的女聲音域與流動伴奏。"
+        "「撒瑪莉亞之女」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7257,7 +7257,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；聽較深的女聲音域與流動伴奏。"
+        "暫時放開最高聲部，聽中低音如何托住「撒瑪莉亞之女」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7276,7 +7276,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "再確認一次：聽較深的女聲音域與流動伴奏。"
+        "「撒瑪莉亞之女」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7295,7 +7295,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "段落正在轉化；聽較深的女聲音域與流動伴奏。"
+        "「撒瑪莉亞之女」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7314,7 +7314,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "下一個轉折前，記住：聽較深的女聲音域與流動伴奏。"
+        "「撒瑪莉亞之女」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7333,7 +7333,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "女中音以井、水桶與活水意象祈求；水的形象與前面瀑布形成另一種連結。"
+        "在「撒瑪莉亞之女」中聽前景與後景，判斷哪一組聲音離耳朵最近。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7352,7 +7352,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「埃及的瑪莉亞」；聽較深的女聲音域與流動伴奏。"
+        "下一段將轉向「埃及的瑪莉亞」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7390,7 +7390,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：把注意力放在最低女聲與和聲底部。"
+        "把注意力放在最低女聲與和聲底部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7409,7 +7409,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「埃及的瑪莉亞」；把注意力放在最低女聲與和聲底部。"
+        "在「埃及的瑪莉亞」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7428,7 +7428,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：把注意力放在最低女聲與和聲底部。"
+        "「埃及的瑪莉亞」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7447,7 +7447,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；把注意力放在最低女聲與和聲底部。"
+        "暫時放開最高聲部，聽中低音如何托住「埃及的瑪莉亞」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7466,7 +7466,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "再確認一次：把注意力放在最低女聲與和聲底部。"
+        "「埃及的瑪莉亞」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7485,7 +7485,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「三位懺悔女子合唱」；把注意力放在最低女聲與和聲底部。"
+        "下一段將轉向「三位懺悔女子合唱」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7523,7 +7523,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：聽三種女聲音域如何疊成一個和聲體。"
+        "聽三種女聲音域如何疊成一個和聲體。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7542,7 +7542,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「三位懺悔女子合唱」；聽三種女聲音域如何疊成一個和聲體。"
+        "在「三位懺悔女子合唱」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7561,7 +7561,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「為葛萊卿代求」；聽三種女聲音域如何疊成一個和聲體。"
+        "下一段將轉向「為葛萊卿代求」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7599,7 +7599,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "注意聽：注意段落由三重唱向更私密女高音過渡。"
+        "注意段落由三重唱向更私密女高音過渡。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -7618,7 +7618,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "這段仍在「為葛萊卿代求」；注意段落由三重唱向更私密女高音過渡。"
+        "「為葛萊卿代求」是一種讀法，不表示每個音符只有一套固定劇情。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -7637,7 +7637,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "把大編制拆開來聽：注意段落由三重唱向更私密女高音過渡。"
+        "「為葛萊卿代求」：先聽文字的關鍵意象，如何被音域、速度與和聲距離放大。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -7656,7 +7656,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "別只追音量；注意段落由三重唱向更私密女高音過渡。"
+        "「為葛萊卿代求」：暫時不追歌詞逐字，改聽母音長度與樂團線條如何改變語氣。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -7675,7 +7675,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "準備進入「葛萊卿：俯身吧」；注意段落由三重唱向更私密女高音過渡。"
+        "下一段將轉向「葛萊卿：俯身吧」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -7713,7 +7713,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：聽女高音的親密語氣，與前面宏大的聖母頌形成對照。"
+        "聽女高音的親密語氣，與前面宏大的聖母頌形成對照。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7732,7 +7732,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「葛萊卿：俯身吧」；聽女高音的親密語氣，與前面宏大的聖母頌形成對照。"
+        "在「葛萊卿：俯身吧」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7751,7 +7751,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「升天的孩童」；聽女高音的親密語氣，與前面宏大的聖母頌形成對照。"
+        "下一段將轉向「升天的孩童」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7789,7 +7789,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：聽童聲如何在聖母主題背景上保持輕盈。"
+        "聽童聲如何在聖母主題背景上保持輕盈。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7808,7 +7808,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「升天的孩童」；聽童聲如何在聖母主題背景上保持輕盈。"
+        "在「升天的孩童」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7827,7 +7827,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽童聲如何在聖母主題背景上保持輕盈。"
+        "「升天的孩童」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7846,7 +7846,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；聽童聲如何在聖母主題背景上保持輕盈。"
+        "暫時放開最高聲部，聽中低音如何托住「升天的孩童」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7865,7 +7865,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "再確認一次：聽童聲如何在聖母主題背景上保持輕盈。"
+        "「升天的孩童」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7884,7 +7884,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「葛萊卿辨認新生的靈魂」；聽童聲如何在聖母主題背景上保持輕盈。"
+        "下一段將轉向「葛萊卿辨認新生的靈魂」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7922,7 +7922,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "注意聽：聽熟悉音型是否以更柔和的面貌再現。"
+        "聽熟悉音型是否以更柔和的面貌再現。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7941,7 +7941,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "這段仍在「葛萊卿辨認新生的靈魂」；聽熟悉音型是否以更柔和的面貌再現。"
+        "在「葛萊卿辨認新生的靈魂」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7960,7 +7960,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽熟悉音型是否以更柔和的面貌再現。"
+        "「葛萊卿辨認新生的靈魂」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7979,7 +7979,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "別只追音量；聽熟悉音型是否以更柔和的面貌再現。"
+        "暫時放開最高聲部，聽中低音如何托住「葛萊卿辨認新生的靈魂」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -7998,7 +7998,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "再確認一次：聽熟悉音型是否以更柔和的面貌再現。"
+        "「葛萊卿辨認新生的靈魂」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8017,7 +8017,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "段落正在轉化；聽熟悉音型是否以更柔和的面貌再現。"
+        "「葛萊卿辨認新生的靈魂」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8036,7 +8036,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "下一個轉折前，記住：聽熟悉音型是否以更柔和的面貌再現。"
+        "「葛萊卿辨認新生的靈魂」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8055,7 +8055,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "準備進入「Mater Gloriosa 即將開口」；聽熟悉音型是否以更柔和的面貌再現。"
+        "下一段將轉向「Mater Gloriosa 即將開口」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8093,7 +8093,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "注意聽：準備辨認遠而高的女高音，不要等到巨大合唱。"
+        "準備辨認遠而高的女高音，不要等到巨大合唱。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8112,7 +8112,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "這段仍在「Mater Gloriosa 即將開口」；準備辨認遠而高的女高音，不要等到巨大合唱。"
+        "在「Mater Gloriosa 即將開口」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8131,7 +8131,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "準備進入「來吧，升向更高天球」；準備辨認遠而高的女高音，不要等到巨大合唱。"
+        "下一段將轉向「來吧，升向更高天球」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8169,7 +8169,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：聽這句如何從遠處出現，隨即把方向交還給眾人。"
+        "聽這句如何從遠處出現，隨即把方向交還給眾人。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8188,7 +8188,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「來吧，升向更高天球」；聽這句如何從遠處出現，隨即把方向交還給眾人。"
+        "在「來吧，升向更高天球」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8207,7 +8207,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽這句如何從遠處出現，隨即把方向交還給眾人。"
+        "「來吧，升向更高天球」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8226,7 +8226,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；聽這句如何從遠處出現，隨即把方向交還給眾人。"
+        "暫時放開最高聲部，聽中低音如何托住「來吧，升向更高天球」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8245,7 +8245,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「仰望吧」；聽這句如何從遠處出現，隨即把方向交還給眾人。"
+        "下一段將轉向「仰望吧」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8283,7 +8283,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：聽『Blicket auf』如何由呼喊擴張成群體回答。"
+        "聽『Blicket auf』如何由呼喊擴張成群體回答。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8302,7 +8302,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「朝向救主的目光」；聽『Blicket auf』如何由呼喊擴張成群體回答。"
+        "下一段將轉向「朝向救主的目光」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8340,7 +8340,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "注意聽：追蹤上升音型與逐層加入的聲部。"
+        "追蹤上升音型與逐層加入的聲部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8359,7 +8359,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "這段仍在「朝向救主的目光」；追蹤上升音型與逐層加入的聲部。"
+        "在「朝向救主的目光」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8378,7 +8378,7 @@ const GUIDE = {
         "cambridge"
       ],
       "subtitle": [
-        "準備進入「貞女、母親、女王、女神」；追蹤上升音型與逐層加入的聲部。"
+        "下一段將轉向「貞女、母親、女王、女神」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8416,7 +8416,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：聽每次『bleibe gnädig』如何增添重量。"
+        "聽每次『bleibe gnädig』如何增添重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8435,7 +8435,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「貞女、母親、女王、女神」；聽每次『bleibe gnädig』如何增添重量。"
+        "在「貞女、母親、女王、女神」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8454,7 +8454,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽每次『bleibe gnädig』如何增添重量。"
+        "「貞女、母親、女王、女神」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8473,7 +8473,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；聽每次『bleibe gnädig』如何增添重量。"
+        "暫時放開最高聲部，聽中低音如何托住「貞女、母親、女王、女神」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8492,7 +8492,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「最後合唱前的長拱形」；聽每次『bleibe gnädig』如何增添重量。"
+        "下一段將轉向「最後合唱前的長拱形」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8530,7 +8530,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "注意聽：聽力度與音域的長程上升，不要只等下一個高潮。"
+        "聽力度與音域的長程上升，不要只等下一個高潮。"
       ],
       "kind": "method",
       "movement": 1,
@@ -8549,7 +8549,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "這段仍在「最後合唱前的長拱形」；聽力度與音域的長程上升，不要只等下一個高潮。"
+        "在「最後合唱前的長拱形」裡只選一條線追蹤，不必同時辨認所有聲部。"
       ],
       "kind": "method",
       "movement": 1,
@@ -8568,7 +8568,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽力度與音域的長程上升，不要只等下一個高潮。"
+        "「最後合唱前的長拱形」：先聽最高聲部，再把注意力移到低音，確認中間還藏著哪些層次。"
       ],
       "kind": "method",
       "movement": 1,
@@ -8587,7 +8587,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "別只追音量；聽力度與音域的長程上升，不要只等下一個高潮。"
+        "「最後合唱前的長拱形」：比較前十秒：真正變化的是力度、密度，還是音色配置。"
       ],
       "kind": "method",
       "movement": 1,
@@ -8606,7 +8606,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "再確認一次：聽力度與音域的長程上升，不要只等下一個高潮。"
+        "「最後合唱前的長拱形」：把起音當路標；各聲部是整齊落下，還是彼此錯開進場。"
       ],
       "kind": "method",
       "movement": 1,
@@ -8625,7 +8625,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "段落正在轉化；聽力度與音域的長程上升，不要只等下一個高潮。"
+        "「最後合唱前的長拱形」：現在只判斷旋律方向：上行、下沉，或停在長音等待接手。"
       ],
       "kind": "method",
       "movement": 1,
@@ -8644,7 +8644,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "下一個轉折前，記住：聽力度與音域的長程上升，不要只等下一個高潮。"
+        "在「最後合唱前的長拱形」中，短動機比完整旋律更容易辨認，先記節奏輪廓。"
       ],
       "kind": "method",
       "movement": 1,
@@ -8663,7 +8663,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "音樂暫不急著封頂，而以器樂與合唱逐步把視線拉到更遠處。"
+        "「最後合唱前的長拱形」：若聲音太多，先找持續最久的一層，再聽其他聲部如何繞著它活動。"
       ],
       "kind": "method",
       "movement": 1,
@@ -8682,7 +8682,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "注意聽：聽力度與音域的長程上升，不要只等下一個高潮。"
+        "「最後合唱前的長拱形」：這十秒專聽句尾：完整終止、延長懸住，或無縫接入下一句。"
       ],
       "kind": "method",
       "movement": 1,
@@ -8701,7 +8701,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "這段仍在「最後合唱前的長拱形」；聽力度與音域的長程上升，不要只等下一個高潮。"
+        "「最後合唱前的長拱形」：再換一次焦點，分辨前景主線與後方持續音之間的距離。"
       ],
       "kind": "method",
       "movement": 1,
@@ -8720,7 +8720,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "準備進入「聲音退到臨界的寂靜」；聽力度與音域的長程上升，不要只等下一個高潮。"
+        "下一段將轉向「聲音退到臨界的寂靜」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "method",
       "movement": 1,
@@ -8758,7 +8758,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "注意聽：把環境音量留低，準備聽最低限度的合唱起音。"
+        "把環境音量留低，準備聽最低限度的合唱起音。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8777,7 +8777,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "這段仍在「聲音退到臨界的寂靜」；把環境音量留低，準備聽最低限度的合唱起音。"
+        "在「聲音退到臨界的寂靜」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8796,7 +8796,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "把大編制拆開來聽：把環境音量留低，準備聽最低限度的合唱起音。"
+        "「聲音退到臨界的寂靜」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8815,7 +8815,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "別只追音量；把環境音量留低，準備聽最低限度的合唱起音。"
+        "暫時放開最高聲部，聽中低音如何托住「聲音退到臨界的寂靜」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8834,7 +8834,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "再確認一次：把環境音量留低，準備聽最低限度的合唱起音。"
+        "「聲音退到臨界的寂靜」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8853,7 +8853,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "段落正在轉化；把環境音量留低，準備聽最低限度的合唱起音。"
+        "「聲音退到臨界的寂靜」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8872,7 +8872,7 @@ const GUIDE = {
         "bso"
       ],
       "subtitle": [
-        "準備進入「一切會消逝的，都只是象徵」；把環境音量留低，準備聽最低限度的合唱起音。"
+        "下一段將轉向「一切會消逝的，都只是象徵」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -8910,7 +8910,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：先聽極弱合唱的共鳴，再逐字跟中文歌詞。"
+        "先聽極弱合唱的共鳴，再逐字跟中文歌詞。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -8929,7 +8929,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「一切會消逝的，都只是象徵」；先聽極弱合唱的共鳴，再逐字跟中文歌詞。"
+        "「一切會消逝的，都只是象徵」是一種讀法，不表示每個音符只有一套固定劇情。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -8948,7 +8948,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：先聽極弱合唱的共鳴，再逐字跟中文歌詞。"
+        "「一切會消逝的，都只是象徵」：先聽文字的關鍵意象，如何被音域、速度與和聲距離放大。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -8967,7 +8967,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；先聽極弱合唱的共鳴，再逐字跟中文歌詞。"
+        "「一切會消逝的，都只是象徵」：暫時不追歌詞逐字，改聽母音長度與樂團線條如何改變語氣。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -8986,7 +8986,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "再確認一次：先聽極弱合唱的共鳴，再逐字跟中文歌詞。"
+        "在「一切會消逝的，都只是象徵」裡，外在景物與內在狀態常由相同動機連在一起。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -9005,7 +9005,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「不可企及者在此成真」；先聽極弱合唱的共鳴，再逐字跟中文歌詞。"
+        "下一段將轉向「不可企及者在此成真」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -9043,7 +9043,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：聽聲部從低處向上堆疊，而非突然放大。"
+        "聽聲部從低處向上堆疊，而非突然放大。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9062,7 +9062,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「不可企及者在此成真」；聽聲部從低處向上堆疊，而非突然放大。"
+        "在「不可企及者在此成真」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9081,7 +9081,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "把大編制拆開來聽：聽聲部從低處向上堆疊，而非突然放大。"
+        "「不可企及者在此成真」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9100,7 +9100,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "別只追音量；聽聲部從低處向上堆疊，而非突然放大。"
+        "暫時放開最高聲部，聽中低音如何托住「不可企及者在此成真」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9119,7 +9119,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "再確認一次：聽聲部從低處向上堆疊，而非突然放大。"
+        "「不可企及者在此成真」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9138,7 +9138,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "段落正在轉化；聽聲部從低處向上堆疊，而非突然放大。"
+        "「不可企及者在此成真」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9157,7 +9157,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "下一個轉折前，記住：聽聲部從低處向上堆疊，而非突然放大。"
+        "「不可企及者在此成真」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9176,7 +9176,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「Ewig：永恆」；聽聲部從低處向上堆疊，而非突然放大。"
+        "下一段將轉向「Ewig：永恆」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9214,7 +9214,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "注意聽：注意長音之間的呼吸，以及高聲部如何懸在和聲上方。"
+        "注意長音之間的呼吸，以及高聲部如何懸在和聲上方。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9233,7 +9233,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "這段仍在「Ewig：永恆」；注意長音之間的呼吸，以及高聲部如何懸在和聲上方。"
+        "在「Ewig：永恆」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9252,7 +9252,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "準備進入「Alles Vergängliche 再現」；注意長音之間的呼吸，以及高聲部如何懸在和聲上方。"
+        "下一段將轉向「Alles Vergängliche 再現」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9290,7 +9290,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "注意聽：比較77:27的第一次：現在聲場與力度都已擴大。"
+        "比較77:27的第一次：現在聲場與力度都已擴大。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9309,7 +9309,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "這段仍在「Alles Vergängliche 再現」；比較77:27的第一次：現在聲場與力度都已擴大。"
+        "在「Alles Vergängliche 再現」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9328,7 +9328,7 @@ const GUIDE = {
         "goethe"
       ],
       "subtitle": [
-        "準備進入「引領我們向上」；比較77:27的第一次：現在聲場與力度都已擴大。"
+        "下一段將轉向「引領我們向上」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9366,7 +9366,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "注意聽：跟隨最高聲部，但也別漏掉低音與管風琴的根基。"
+        "跟隨最高聲部，但也別漏掉低音與管風琴的根基。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9385,7 +9385,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "這段仍在「引領我們向上」；跟隨最高聲部，但也別漏掉低音與管風琴的根基。"
+        "在「引領我們向上」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9404,7 +9404,7 @@ const GUIDE = {
         "tmso"
       ],
       "subtitle": [
-        "準備進入「Veni 回到終曲尾奏」；跟隨最高聲部，但也別漏掉低音與管風琴的根基。"
+        "下一段將轉向「Veni 回到終曲尾奏」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9442,7 +9442,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "注意聽：遠距銅管與管風琴將空間推到最大；辨認熟悉的三音輪廓。"
+        "遠距銅管與管風琴將空間推到最大；辨認熟悉的三音輪廓。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9461,7 +9461,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "這段仍在「Veni 回到終曲尾奏」；遠距銅管與管風琴將空間推到最大；辨認熟悉的三音輪廓。"
+        "在「Veni 回到終曲尾奏」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9480,7 +9480,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "把大編制拆開來聽：遠距銅管與管風琴將空間推到最大；辨認熟悉的三音輪廓。"
+        "「Veni 回到終曲尾奏」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9499,7 +9499,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "別只追音量；遠距銅管與管風琴將空間推到最大；辨認熟悉的三音輪廓。"
+        "暫時放開最高聲部，聽中低音如何托住「Veni 回到終曲尾奏」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9518,7 +9518,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "再確認一次：遠距銅管與管風琴將空間推到最大；辨認熟悉的三音輪廓。"
+        "「Veni 回到終曲尾奏」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9537,7 +9537,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "段落正在轉化；遠距銅管與管風琴將空間推到最大；辨認熟悉的三音輪廓。"
+        "「Veni 回到終曲尾奏」：留意句首的起音；人聲與樂器是整齊落下，還是故意錯開。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9556,7 +9556,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "下一個轉折前，記住：遠距銅管與管風琴將空間推到最大；辨認熟悉的三音輪廓。"
+        "「Veni 回到終曲尾奏」：把節奏當作路標：反覆音型正在累積張力，還是已開始放鬆。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9575,7 +9575,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "第一部的 Veni 與倒影音型在尾奏重返，把兩種文本、兩個部分鎖成同一座拱門。"
+        "在「Veni 回到終曲尾奏」中聽前景與後景，判斷哪一組聲音離耳朵最近。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9594,7 +9594,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "注意聽：遠距銅管與管風琴將空間推到最大；辨認熟悉的三音輪廓。"
+        "「Veni 回到終曲尾奏」：這十秒專聽句尾：完整停下、懸在半空，或直接接進下一句。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9613,7 +9613,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "這段仍在「Veni 回到終曲尾奏」；遠距銅管與管風琴將空間推到最大；辨認熟悉的三音輪廓。"
+        "「Veni 回到終曲尾奏」：若熟悉輪廓出現，先別急著命名；聽它被哪一組聲音接走。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9632,7 +9632,7 @@ const GUIDE = {
         "imslp"
       ],
       "subtitle": [
-        "準備進入「最後和弦不是只有音量」；遠距銅管與管風琴將空間推到最大；辨認熟悉的三音輪廓。"
+        "下一段將轉向「最後和弦不是只有音量」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9670,7 +9670,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "注意聽：在掌聲前聽殘響如何保留整座聲場的高度。"
+        "在掌聲前聽殘響如何保留整座聲場的高度。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9689,7 +9689,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "這段仍在「最後和弦不是只有音量」；在掌聲前聽殘響如何保留整座聲場的高度。"
+        "在「最後和弦不是只有音量」裡先分開前景主線與後方持續音，不必一次聽完全部。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9708,7 +9708,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "把大編制拆開來聽：在掌聲前聽殘響如何保留整座聲場的高度。"
+        "「最後和弦不是只有音量」：比較前十秒：真正改變的是聲部密度，還是同一材料換了音色。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9727,7 +9727,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "別只追音量；在掌聲前聽殘響如何保留整座聲場的高度。"
+        "暫時放開最高聲部，聽中低音如何托住「最後和弦不是只有音量」的和聲重量。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9746,7 +9746,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "再確認一次：在掌聲前聽殘響如何保留整座聲場的高度。"
+        "「最後和弦不是只有音量」：現在只追一條線，聽它上行、下沉，或停在長音等待別人接手。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9765,7 +9765,7 @@ const GUIDE = {
         "aso"
       ],
       "subtitle": [
-        "準備進入「把兩部連回同一問題」；在掌聲前聽殘響如何保留整座聲場的高度。"
+        "下一段將轉向「把兩部連回同一問題」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "listen",
       "movement": 1,
@@ -9803,7 +9803,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "注意聽：回想開頭 Veni 與最後尾奏是否像同一句話的兩端。"
+        "回想開頭 Veni 與最後尾奏是否像同一句話的兩端。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -9822,7 +9822,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "這段仍在「把兩部連回同一問題」；回想開頭 Veni 與最後尾奏是否像同一句話的兩端。"
+        "「把兩部連回同一問題」是一種讀法，不表示每個音符只有一套固定劇情。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -9841,7 +9841,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "把大編制拆開來聽：回想開頭 Veni 與最後尾奏是否像同一句話的兩端。"
+        "「把兩部連回同一問題」：先聽文字的關鍵意象，如何被音域、速度與和聲距離放大。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -9860,7 +9860,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "別只追音量；回想開頭 Veni 與最後尾奏是否像同一句話的兩端。"
+        "「把兩部連回同一問題」：暫時不追歌詞逐字，改聽母音長度與樂團線條如何改變語氣。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -9879,7 +9879,7 @@ const GUIDE = {
         "berlin"
       ],
       "subtitle": [
-        "準備進入「全曲結束」；回想開頭 Veni 與最後尾奏是否像同一句話的兩端。"
+        "下一段將轉向「全曲結束」；聽目前句尾如何收束、懸住或直接跨過去。"
       ],
       "kind": "interpretation",
       "movement": 1,
@@ -9917,7 +9917,7 @@ const GUIDE = {
         "oeaw"
       ],
       "subtitle": [
-        "注意聽：若要重聽，先從1:36的 Veni、27:16的第二部或77:27的神秘合唱開始。"
+        "若要重聽，先從1:36的 Veni、27:16的第二部或77:27的神秘合唱開始。"
       ],
       "kind": "method",
       "movement": 1,
