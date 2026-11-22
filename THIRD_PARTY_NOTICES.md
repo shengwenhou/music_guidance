@@ -130,3 +130,24 @@ Stephen E. Hefling（1988），Mahler’s “Todtenfeier” and the Problem of P
 - Marion T. Trout（1991），The Offstage Effect: An Historical and Stylistic Perspective with Performance Considerations for Trumpet，University of North Texas。 已讀：51–57頁馬勒第二號的相關正文與例7–10。 https://digital.library.unt.edu/ark:/67531/metadc278691/m2/1/high_res_d/1002718062-trout.pdf
 
 Banks線上跋與主目錄對最早用名年份存在差異；導聆已避免把1891年定為無爭議的最早日期。
+
+## 馬勒第八號頁面
+
+### 演出影片與字幕時間
+
+- Mariss Jansons／Royal Concertgebouw Orchestra，2011年3月4、6日於阿姆斯特丹皇家大會堂現場演出；YouTube上傳者Pariah：<https://www.youtube.com/watch?v=kP_cwJ4tKP0>
+- 影片、錄音、演出者肖像、YouTube標誌及原字幕軌不在MIT授權範圍；網站只使用YouTube官方嵌入播放器，不含影音副本。
+- 拉丁文／德文字幕軌只用來核對同場演出的文字與時間界線。影片內標示的鄒仲之中文字幕未被複製；網站繁體中文為本專案依公版原文重新翻譯。
+
+### 作品、原文與研究來源
+
+- Berliner Philharmoniker，Gustav Mahler: Symphony No. 8：<https://www.berliner-philharmoniker.de/en/programme-notes/gustav-mahler-symphony-no-8/>
+- Mahler Foundation，Symphony No. 8 introduction：<https://mahlerfoundation.org/mahler/compositions/symphony-no-8/symphony-no-8-introduction/>
+- American Symphony Orchestra，Gustav Mahler’s Symphony No. 8：<https://americansymphony.org/concert-notes/gustav-mahlers-symphony-no-8/>
+- Austrian Academy of Sciences，Gustav Mahler Werkverzeichnis GMW 48：<https://acdh-ch.pages.oeaw.ac.at/muwi/mahler-mei/mahler-wv-static/GMW_048.html>
+- Cambridge，Linking Christian and Faustian Utopias：只使用公開摘要，未取得付費全文。<https://www.cambridge.org/core/books/abs/music-in-goethes-faust/linking-christian-and-faustian-utopias-mahlers-setting-of-the-schlussszene-in-his-eighth-symphony/1EB691E7426858D17A165C5C2AD23212>
+- IMSLP，Symphony No. 8 (Mahler)：公版總譜與編制資料。<https://imslp.org/wiki/Symphony_No.8_(Mahler%2C_Gustav)>
+- 拉丁讚歌《Veni Creator Spiritus》：<https://la.wikisource.org/wiki/Veni_Creator_Spiritus>
+- Goethe，《Faust II》Bergschluchten：<https://www.projekt-gutenberg.org/goethe/faust2/faust60.html>
+
+521段導聆以10秒為閱讀節奏；重要章節、歌詞與角色時間依本次影片資料核對，但不宣稱全曲逐小節驗聽。中文背景導聆與翻譯屬本專案原創；歷史事實、作品原文及第三方觀點仍依各自權利與公版狀態處理。

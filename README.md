@@ -2,6 +2,8 @@
 
 [開啟網站](https://shengwenhou.github.io/music_guidance/)
 
+[開啟馬勒第八號導聆](https://shengwenhou.github.io/music_guidance/mahler8/)
+
 馬勒第二號交響曲《復活》五樂章的繁體中文互動導聆。原始YouTube演出搭配 **499段字幕**，通常每10秒更新，章節交界立即切換。背景故事與聆聽提醒交替，涵蓋創作、文本、曲式、音色及全曲關聯。
 
 ## 使用
@@ -51,6 +53,18 @@ Copyright (c) 2026 Sheng-Wen Hou。程式碼與原創導聆採[MIT License](LICE
 網站「來源與不同觀點」列出Banks、Hefling、Lawrence F. Bernstein、Jonathan Del Mar、Péteri、Draughon／Knapp、Henken等來源、實際讀到的正文／摘要／節錄，並連回對應字幕。已改寫18段字幕並修訂開場命名年代；保留研究分歧，不宣稱已讀取未取得的付費全文。完整書目及權利範圍見THIRD_PARTY_NOTICES.md。
 
 僅保留文字字幕與圖卡，沒有朗讀或語音播放功能。
+
+## 馬勒第八號《千人交響曲》
+
+同一網站另有以 Mariss Jansons／皇家大會堂管弦樂團 2011 年演出製作的獨立全曲頁。影片長 86:33，包含 **521段通常每10秒更新的背景／聆聽字幕**、重要人聲與器樂進場提醒，以及 **377段同步繁體中文歌詞**。
+
+- 第一部：拉丁文《Veni Creator Spiritus》原文，可切換顯示。
+- 第二部：歌德《浮士德》第二部終幕德文原文，可切換顯示。
+- 中文為本專案依公版原文重新翻譯；沒有採用影片中的鄒仲之中文字幕。
+- 時間界線依同一YouTube影片的拉丁文／德文字幕軌與章節資料；複調重疊處以主要或最先進入的文字呈現。
+- 另提供 `dist/mahler8/mahler8-zh-Hant.vtt` 下載；無TTS。
+
+程式碼與原創中文導聆／翻譯採MIT；影片、錄音、原字幕軌及第三方資料不在MIT授權範圍。
 
 ## 第五樂章進場前提醒
 

@@ -30,8 +30,11 @@ jobs:
           node --check dist/guide-data.js
           node --check dist/app.js
           node --check dist/lyrics-data.js
+          node --check dist/mahler8/guide-data.js
+          node --check dist/mahler8/app.js
+          node --check dist/mahler8/lyrics-data.js
       - name: Test guide interactions
-        run: node --test tests/guide.test.cjs
+        run: node --test tests/*.test.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
