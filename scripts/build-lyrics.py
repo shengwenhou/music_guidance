@@ -29,7 +29,7 @@ for item in timing:
 
 out = {
     "videoId": "e34QpbAPgi8",
-    "version": 11,
+    "version": 12,
     "method": (
         "終章合唱與獨唱的原創中譯；德文依Klopstock與馬勒原詞。"
         "時間以ARD同場官方錄音的強制對齊初稿為底，逐句對照頻譜、長音、休止與樂句重新修正。"
@@ -40,6 +40,9 @@ out = {
     "sources": [
         "https://mahlercat.org.uk/Pages/Symph2/Texts.htm",
         "https://ard-pd.ard-mcdn.de/klassik/2325609.avc-360.mp4",
+    ],
+    "vocalRanges": [
+        {"start": cues[0]["start"], "end": cues[-1]["end"]},
     ],
     "cues": cues,
     "untimed": [],

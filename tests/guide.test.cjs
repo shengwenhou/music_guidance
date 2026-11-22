@@ -122,7 +122,7 @@ test('lyrics follow their own boundaries, clear gaps and remain independent of g
  const s=setup(),e=s.elements;s.ready();e.start.onclick();s.tick();
  s.state.time=4145.1;s.tick();assert.equal(e.lyricsBand.hidden,false);assert.match(e.lyricChinese.textContent,/復起/);assert.match(e.lyricTiming.textContent,/已對時/);
  const first=e.lyricChinese.textContent;s.state.time=4150;s.tick();assert.equal(e.lyricChinese.textContent,first);
- s.state.time=4202;s.tick();assert.equal(e.lyricsBand.hidden,true);
+ s.state.time=4202;s.tick();assert.equal(e.lyricsBand.hidden,false);assert.equal(e.lyricChinese.textContent,'');assert.match(e.lyricTiming.textContent,/換句|間奏/);
  s.state.time=4145.1;s.tick();e.lyricsToggle.checked=false;e.lyricsToggle.onchange();assert.equal(e.lyricsBand.hidden,true);assert.equal(s.state.time,4145.1);
  e.lyricsToggle.checked=true;e.lyricsToggle.onchange();assert.equal(e.lyricsBand.hidden,false);
  e.germanToggle.checked=true;e.germanToggle.onchange();assert.equal(e.lyricGerman.hidden,false);assert.match(e.lyricGerman.textContent,/Aufersteh/);
@@ -142,5 +142,6 @@ test('all reviewed lyric phrases, including the ending, are timed and published 
  assert.equal(g.cues.length,32);assert.equal(g.untimed.length,0);assert.match(g.method,/82:04/);
  let end=0;for(const c of g.cues){assert.ok(c.start>=end&&c.end>c.start&&c.end<=4924.1);assert.ok(c.zh&&c.de);assert.equal(c.review,'aligned');end=c.end}
  assert.match(g.cues.at(-1).zh,/上帝/);assert.equal(g.cues.at(-1).start,4910);assert.equal(g.cues.at(-1).end,4924.1);
+ assert.deepEqual(JSON.parse(JSON.stringify(g.vocalRanges)),[{start:4145.02,end:4924.1}]);
  const vtt=fs.readFileSync(path.join(__dirname,'../dist/mahler-finale-zh-Hant.vtt'),'utf8');assert.equal((vtt.match(/ --> /g)||[]).length,g.cues.length);assert.match(vtt,/reviewed against the official recording/);
 });

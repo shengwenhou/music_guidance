@@ -1,12 +1,34 @@
 /* Original Chinese translation; cue boundaries follow the source video's authored captions. */
 const LYRIC_GUIDE = {
   "videoId": "kP_cwJ4tKP0",
-  "version": 1,
+  "version": 2,
   "method": "第一部拉丁文與第二部德文採本次YouTube影片原文字幕的時間界線，共377段；繁體中文為本專案依公版原文重新翻譯，沒有採用影片中的鄒仲之中文字幕。複調處字幕代表當下最主要或最先進入的文字，聲部重疊不可能完全濃縮在單一字幕；可用±30秒微調修正裝置端差異。",
   "sources": [
     "https://www.youtube.com/watch?v=kP_cwJ4tKP0",
     "https://la.wikisource.org/wiki/Veni_Creator_Spiritus",
     "https://www.projekt-gutenberg.org/goethe/faust2/faust60.html"
+  ],
+  "vocalRanges": [
+    {
+      "start": 96.03,
+      "end": 563.013
+    },
+    {
+      "start": 662.028,
+      "end": 1567.009
+    },
+    {
+      "start": 2201.0,
+      "end": 3409.635
+    },
+    {
+      "start": 3542.0,
+      "end": 4528.84
+    },
+    {
+      "start": 4647.0,
+      "end": 4890.38
+    }
   ],
   "cues": [
     {

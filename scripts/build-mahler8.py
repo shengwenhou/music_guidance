@@ -319,9 +319,9 @@ def build_html(cue_count: int) -> str:
         "https://www.youtube.com/watch?v=e34QpbAPgi8": f"https://www.youtube.com/watch?v={VIDEO_ID}",
         "原始演出：ARD Klassik／Simon Rattle／BRSO與巴伐利亞廣播合唱團": "原始演出：Mariss Jansons／Royal Concertgebouw Orchestra",
         "2026年3月21日，漢堡易北愛樂廳；Louise Alder（女高音）、Beth Taylor（次女高音）。演出資訊及樂章時間來自影片官方說明。": "2011年3月4、6日，阿姆斯特丹皇家大會堂現場。演出資訊、章節與原文字幕來自影片說明。",
-        "guide-data.js?v=11": "guide-data.js?v=1",
-        "lyrics-data.js?v=11": "lyrics-data.js?v=1",
-        "app.js?v=11": "app.js?v=1",
+        "guide-data.js?v=12": "guide-data.js?v=2",
+        "lyrics-data.js?v=12": "lyrics-data.js?v=2",
+        "app.js?v=12": "app.js?v=2",
     }
     for old, new in replacements.items():
         if old not in page:
@@ -338,9 +338,16 @@ def main() -> None:
     lyric_cues, vtt = build_lyrics()
     lyric_guide = {
         "videoId": VIDEO_ID,
-        "version": 1,
+        "version": 2,
         "method": "第一部拉丁文與第二部德文採本次YouTube影片原文字幕的時間界線，共377段；繁體中文為本專案依公版原文重新翻譯，沒有採用影片中的鄒仲之中文字幕。複調處字幕代表當下最主要或最先進入的文字，聲部重疊不可能完全濃縮在單一字幕；可用±30秒微調修正裝置端差異。",
         "sources": [SOURCES["video"][1], SOURCES["latin"][1], SOURCES["goethe"][1]],
+        "vocalRanges": [
+            {"start": 96.03, "end": 563.013},
+            {"start": 662.028, "end": 1567.009},
+            {"start": 2201.0, "end": 3409.635},
+            {"start": 3542.0, "end": 4528.84},
+            {"start": 4647.0, "end": 4890.38},
+        ],
         "cues": lyric_cues,
         "untimed": [],
     }

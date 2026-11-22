@@ -7,8 +7,9 @@ function updateCueKind(){const listening=cues[index]?.kind==='listen';$('caption
 let lastGuideTime=0,shownLyric;
 function lyricShift(){return Math.min(30,Math.max(-30,Number($('lyricShift').value)||0))}
 function renderLyrics(t){
- lastGuideTime=t;const lt=t-lyricShift();const c=$('lyricsToggle').checked?(LYRIC_GUIDE.cues||[]).find(c=>lt>=c.start&&lt<c.end):null;
- const key=c?.id||null;if(key!==shownLyric){shownLyric=key;$('lyricsBand').hidden=!c;$('lyricChinese').textContent=c?.zh||'';$('lyricGerman').textContent=c?.de||'';$('lyricTiming').textContent=c?(c.review==='aligned'?'原字幕軌 · 已對時':'時間待複核'):'';}
+ lastGuideTime=t;const lt=t-lyricShift(),enabled=$('lyricsToggle').checked;const c=enabled?(LYRIC_GUIDE.cues||[]).find(c=>lt>=c.start&&lt<c.end):null;
+ const inVocalRange=enabled&&(LYRIC_GUIDE.vocalRanges||[]).some(range=>lt>=range.start&&lt<range.end),trackVisible=Boolean(c||inVocalRange);
+ const key=(trackVisible?'track:':'hidden:')+(c?.id||'gap');if(key!==shownLyric){shownLyric=key;$('lyricsBand').hidden=!trackVisible;$('lyricsBand').classList.toggle('empty',trackVisible&&!c);$('lyricChinese').textContent=c?.zh||'';$('lyricGerman').textContent=c?.de||'';$('lyricTiming').textContent=c?(c.review==='aligned'?'原字幕軌 · 已對時':'時間待複核'):trackVisible?'換句／器樂間奏':'';}
  $('lyricGerman').hidden=!$('germanToggle').checked;
 }
 $('lyricsToggle').onchange=()=>renderLyrics(lastGuideTime);

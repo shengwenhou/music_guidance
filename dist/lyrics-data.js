@@ -1,11 +1,17 @@
 /* Original Chinese translation; phrase timing reviewed against the same performance. */
 const LYRIC_GUIDE = {
   "videoId": "e34QpbAPgi8",
-  "version": 11,
+  "version": 12,
   "method": "終章合唱與獨唱的原創中譯；德文依Klopstock與馬勒原詞。時間以ARD同場官方錄音的強制對齊初稿為底，逐句對照頻譜、長音、休止與樂句重新修正。五個樂章起點與YouTube相同；ARD在82:04左右音樂收束、82:16左右開始掌聲，YouTube多出的約10秒位於尾端，歌詞無須整體平移。複調合唱以最先可辨識的聲部換句，長音和聲部重疊仍可能有約1–2秒差異；可用歌詞微調做裝置端修正。",
   "sources": [
     "https://mahlercat.org.uk/Pages/Symph2/Texts.htm",
     "https://ard-pd.ard-mcdn.de/klassik/2325609.avc-360.mp4"
+  ],
+  "vocalRanges": [
+    {
+      "start": 4145.02,
+      "end": 4924.1
+    }
   ],
   "cues": [
     {

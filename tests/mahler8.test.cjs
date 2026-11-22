@@ -50,6 +50,10 @@ test('all Latin and German lyric cues are independently translated and timed', (
   assert.equal(lyrics.untimed.length, 0);
   assert.equal(lyrics.cues.filter(cue => cue.language === 'la').length, 128);
   assert.equal(lyrics.cues.filter(cue => cue.language === 'de').length, 249);
+  assert.deepEqual(Array.from(lyrics.vocalRanges, range => [range.start, range.end]), [
+    [96.03, 563.013], [662.028, 1567.009], [2201, 3409.635],
+    [3542, 4528.84], [4647, 4890.38],
+  ]);
   assert.equal(lyrics.cues[0].start, 96.03);
   assert.equal(lyrics.cues.at(-1).end, 4890.38);
   let lastStart = -1;
@@ -74,6 +78,8 @@ test('published VTT and interface expose the same lyric set without TTS', () => 
   assert.match(vtt, /一切會消逝的/);
   assert.match(html, /馬勒八/);
   assert.match(html, /拉丁文／德文原文/);
+  assert.match(html, /\.lyrics-band\{height:142px/);
+  assert.match(html, /max-width:650px\)\{\.lyrics-band\{height:170px/);
   assert.match(html, /mahler8-zh-Hant\.vtt/);
   assert.match(app, /videoId:GUIDE\.videoId/);
   assert.doesNotMatch(`${html}\n${app}`, /speechSynthesis|TTS|語音播放/);
